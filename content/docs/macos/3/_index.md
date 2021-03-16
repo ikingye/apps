@@ -63,6 +63,9 @@ curl -o- -L https://omw.limingkai.cn/install.sh | bash -s
 
 # 开机自动安装小助手的功能（即在开机后自动运行一次 omw -n）
 omw open
+
+# 解决重启错误问题，参考：https://github.com/MustangYM/WeChatExtension-ForMac/issues/816
+sudo codesign --sign - --force --deep /Applications/WeChat.app
 ```
 
 ## 语雀
