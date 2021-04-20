@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="git git module git submodule foreach git reset --hard HEAD git submodule update git submodule foreach &#34;git checkout master; git pull&#34; git submodule foreach git clean -f 更新 submodule git submodule update --init git submodule update --remote 删除 submodule  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes:
-git add .gitmodules Delete the relevant section from .git/config. Remove the submodule files from the working tree and index:"><meta property="og:title" content="git" />
+<meta name="description" content="git git module git submodule foreach git reset --hard HEAD git submodule update git submodule foreach &#34;git checkout master; git pull&#34; git submodule foreach git clean -f 更新 submodule git submodule update --init git submodule update --remote  merge vs squash vs rebase merge 不能保持 master 分支干净，但是保持了所有的 commit history，大多数情况下都是不好的，个别情况挺好 squash 也可以保持 master 分支干净，但是 master 中 author 都是 maintainer，而不是原 owner rebase 可以尽可能保持 master 分支干净整洁，并且易于识别 author
+squash merge # 切换到目标分支 $ git checkout master # 以 squash 的形式 merge $ git merge --squash devel # it does not produce a commit right away: you need an additional commit $ git commit -m &#34;squash branch&#34;  你会发现，在 master 分支上居然有未提交的修改，然后你就需要在 master 上主动提交了修改， 注意，这里是你 commit 的，也就是改变了 commit 的 author。 git merge has a &ndash;commit option, but it cannot be used with &ndash;squash."><meta property="og:title" content="git" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ikingye.github.io/apps/docs/macos/3/git/" />
@@ -17,7 +17,7 @@ git add .gitmodules Delete the relevant section from .git/config. Remove the su
 <link rel="stylesheet" href="/apps/book.min.9eb34a541dae64ef88ebcc3da0ae41207b6e9fd026eb7c3da82300b0c455ed4c.css" integrity="sha256-nrNKVB2uZO&#43;I68w9oK5BIHtun9Am63w9qCMAsMRV7Uw=">
 
 
-<script defer src="/apps/en.search.min.e541a002ebd70d596b322ce1e66bbf8453b6d9fca72b7daab5c4a75837992bb5.js" integrity="sha256-5UGgAuvXDVlrMizh5mu/hFO22fynK32qtcSnWDeZK7U="></script>
+<script defer src="/apps/en.search.min.35eabcca91f6edcb3dbb3c47428bbe1f414c8475223811ba8aae3a5fd1dfe313.js" integrity="sha256-Neq8ypH27cs9uzxHQou&#43;H0FMhHUiOBG6iq46X9Hf4xM="></script>
 
 <link rel="alternate" type="application/rss+xml" href="https://ikingye.github.io/apps/docs/macos/3/git/index.xml" title="一些软件" />
 <!--
@@ -510,7 +510,6 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#git-module">git module</a>
       <ul>
         <li><a href="#更新-submodule">更新 submodule</a></li>
-        <li><a href="#删除-submodule">删除 submodule</a></li>
       </ul>
     </li>
     <li><a href="#merge-vs-squash-vs-rebase">merge vs squash vs rebase</a>
@@ -547,26 +546,7 @@ git submodule foreach git clean -f
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git submodule update --init
 
 git submodule update --remote
-</code></pre></div><h3 id="删除-submodule">删除 submodule</h3>
-<ol>
-<li>Delete the relevant section from the <code>.gitmodules</code> file.</li>
-<li>Stage the <code>.gitmodules</code> changes:<br>
-<code>git add .gitmodules</code></li>
-<li>Delete the relevant section from <code>.git/config</code>.</li>
-<li>Remove the submodule files from the working tree and index:<br>
-<code>git rm --cached path_to_submodule</code> (no trailing slash).</li>
-<li>Remove the submodule&rsquo;s <code>.git</code> directory:<br>
-<code>rm -rf .git/modules/path_to_submodule</code></li>
-<li>Commit the changes:<br>
-<code>git commit -m &quot;Removed submodule &lt;name&gt;&quot;</code></li>
-<li>Delete the now untracked submodule files:<br>
-<code>rm -rf path_to_submodule</code></li>
-</ol>
-<p>参考：</p>
-<ul>
-<li><a href="https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule">How do I remove a submodule?</a></li>
-</ul>
-<hr>
+</code></pre></div><hr>
 <h2 id="merge-vs-squash-vs-rebase">merge vs squash vs rebase</h2>
 <p>merge 不能保持 master 分支干净，但是保持了所有的 commit history，大多数情况下都是不好的，个别情况挺好
 squash 也可以保持 master 分支干净，但是 master 中 author 都是 maintainer，而不是原 owner
@@ -683,9 +663,9 @@ git reset -- &lt;path&gt;
 
   <div>
     
-    <a class="flex align-center" href="https://github.com/ikingye/apps/commit/a8ab80b4810bc422cfcd6d6bc3fd1a2b6d5c924f" title='Last modified by yewang | 2021-02-28' target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/ikingye/apps/commit/b380aebde2e387fcc6d3401759470395bebe877f" title='Last modified by yewang | 2021-04-19' target="_blank" rel="noopener">
       <img src="/apps/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>2021-02-28</span>
+      <span>2021-04-19</span>
     </a>
   </div>
 
@@ -744,7 +724,6 @@ git reset -- &lt;path&gt;
     <li><a href="#git-module">git module</a>
       <ul>
         <li><a href="#更新-submodule">更新 submodule</a></li>
-        <li><a href="#删除-submodule">删除 submodule</a></li>
       </ul>
     </li>
     <li><a href="#merge-vs-squash-vs-rebase">merge vs squash vs rebase</a>

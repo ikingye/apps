@@ -34,8 +34,12 @@ git submodule update --remote
 - Delete the relevant section from `.git/config`.
 - Run `git rm --cached path_to_submodule` (no trailing slash).
 - Run `rm -rf .git/modules/path_to_submodule` (no trailing slash).
-- Commit git commit -m "Removed submodule "
+- Commit `git commit -m "Removed submodule "`
 - Delete the now untracked submodule files `rm -rf path_to_submodule`
+
+参考：
+
+- [How do I remove a submodule?](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
 
 ---
 
