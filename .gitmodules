@@ -1,7 +1,7 @@
 [submodule "themes/hugo-book"]
 	path = themes/hugo-book
 	url = https://github.com/ikingye/hugo-book
-	branch = v8
+	branch = v9
 [submodule "public"]
 	path = public
 	url = https://github.com/ikingye/apps
