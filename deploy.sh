@@ -9,6 +9,8 @@ msg="rebuilding site $(date)"
 
 # update the theme
 git submodule update --remote
+# remove old files
+rm -rf public/*
 # Build the project.
 hugo
 
