@@ -12,35 +12,35 @@ type: docs
 | iTerm2               |            | [✔](docs/macos/#iterm2)        | ✗     | ✗       | ✗   | ✗       | ★★★★★ |        |
 | GoLand               | IDE - Go   | [✔](docs/macos/#goland)        |       |         |     |         | ★★★★  |        |
 | `IntelliJ IDEA`      | IDE - Java | [✔](docs/macos/#intellij-idea) |       |         |     |         | ★★★★  |        |
-| `Visual Studio Code` | 编辑器     | [✔](docs/macos/#vscode)        | ✔     | ✔       | ✗   | ✗       | ★★★★★ | VSCode |
+| `Visual Studio Code` | 编辑器     | [✔](docs/macos/5/vscode/)      | ✔     | ✔       | ✗   | ✗       | ★★★★★ | VSCode |
 
 ---
 
 ## 四星
 
-| App                | 类型             | MacOS                       | Linux | Windows | iOS | Android | 评分 | 备注                                      |
-| ------------------ | ---------------- | --------------------------- | ----- | ------- | --- | ------- | ---- | ----------------------------------------- |
-| Alfred             |                  | [✔](docs/macos/4/#alfred)   | ✗     | ✗       |     |         | ★★★★ |                                           |
-| Docker             |                  | ✔                           | ✔     | ✔       |     |         | ★★★★ |                                           |
-| V2Ray              |                  | [✔](docs/macos/4/#v2ray)    | ✔     | ✗       |     |         | ★★★★ |                                           |
-| PhpStorm           | IDE - PHP / 前端 |                             |       |         |     |         | ★★★★ |                                           |
-| 微信               | IM               | ✔                           |       |         |     |         | ★★★★ |                                           |
-| Mermaid            | 作图             |                             |       |         |     |         | ★★★★ |                                           |
-| `draw.io`          | 作图             |                             |       |         |     |         | ★★★★ |                                           |
-| PicGo              | 图床             |                             |       |         |     |         | ★★★★ |                                           |
-| Dropbox            | 备份 - 同步      |                             |       |         |     |         | ★★★★ |                                           |
-| 一刻相册           | 备份 - 图片/视频 |                             |       |         |     |         | ★★★★ |                                           |
-| Kap                | 录屏 - GIF       |                             |       |         |     |         | ★★★★ |                                           |
-| `Keyboard Maestro` | 快捷键           |                             |       |         |     |         | ★★★★ |                                           |
-| `Google Chrome`    | 浏览器           |                             |       |         |     |         | ★★★★ |                                           |
-| 微信读书           | 看书             |                             |       |         |     |         | ★★★★ |                                           |
-| 语雀               | 笔记             | ✔                           |       |         |     |         | ★★★★ |                                           |
-| OmniDiskSweeper    | 系统 - 磁盘管理  |                             |       |         |     |         | ★★★★ |                                           |
-| ShiftIt            | 系统 - 窗口移动  |                             |       |         |     |         | ★★★★ |                                           |
-| WakaTime           | 编程 - 记录时间  | [✔](docs/macos/4/#wakatime) |       |         |     |         | ★★★★ |                                           |
-| `Sublime Text`     | 编辑器           | ✔                           | ✗     | ✔       |     |         | ★★★★ | 废弃，改用 [VSCode](docs/macos/3/#vscode) |
-| Multipass          | 虚拟机管理       |                             |       |         |     |         | ★★★★ |                                           |
-| 网易云音乐         | 音乐             |                             |       |         |     |         | ★★★★ |                                           |
+| App                | 类型             | MacOS                      | Linux | Windows | iOS | Android | 评分 | 备注                                     |
+| ------------------ | ---------------- | -------------------------- | ----- | ------- | --- | ------- | ---- | ---------------------------------------- |
+| Alfred             |                  | [✔](docs/macos/4/alfred)   | ✗     | ✗       |     |         | ★★★★ |                                          |
+| Docker             |                  | ✔                          | ✔     | ✔       |     |         | ★★★★ |                                          |
+| V2Ray              |                  | [✔](docs/macos/4/v2ray)    | ✔     | ✗       |     |         | ★★★★ |                                          |
+| PhpStorm           | IDE - PHP / 前端 |                            |       |         |     |         | ★★★★ |                                          |
+| 微信               | IM               | ✔                          |       |         |     |         | ★★★★ |                                          |
+| Mermaid            | 作图             |                            |       |         |     |         | ★★★★ |                                          |
+| `draw.io`          | 作图             |                            |       |         |     |         | ★★★★ |                                          |
+| PicGo              | 图床             |                            |       |         |     |         | ★★★★ |                                          |
+| Dropbox            | 备份 - 同步      |                            |       |         |     |         | ★★★★ |                                          |
+| 一刻相册           | 备份 - 图片/视频 |                            |       |         |     |         | ★★★★ |                                          |
+| Kap                | 录屏 - GIF       |                            |       |         |     |         | ★★★★ |                                          |
+| `Keyboard Maestro` | 快捷键           |                            |       |         |     |         | ★★★★ |                                          |
+| `Google Chrome`    | 浏览器           |                            |       |         |     |         | ★★★★ |                                          |
+| 微信读书           | 看书             |                            |       |         |     |         | ★★★★ |                                          |
+| 语雀               | 笔记             | ✔                          |       |         |     |         | ★★★★ |                                          |
+| OmniDiskSweeper    | 系统 - 磁盘管理  |                            |       |         |     |         | ★★★★ |                                          |
+| ShiftIt            | 系统 - 窗口移动  |                            |       |         |     |         | ★★★★ |                                          |
+| WakaTime           | 编程 - 记录时间  | [✔](docs/macos/4/wakatime) |       |         |     |         | ★★★★ |                                          |
+| `Sublime Text`     | 编辑器           | ✔                          | ✗     | ✔       |     |         | ★★★★ | 废弃，改用 [VSCode](docs/macos/5/vscode) |
+| Multipass          | 虚拟机管理       |                            |       |         |     |         | ★★★★ |                                          |
+| 网易云音乐         | 音乐             |                            |       |         |     |         | ★★★★ |                                          |
 
 ---
 
@@ -50,7 +50,7 @@ type: docs
 | ------------------------ | --------------- | --------------------------- | ----- | ------- | --- | ------- | ---- | ------------------------- |
 | Multipass                |                 | [✔](docs/macos/3/multipass) | ✔     | ✗       |     |         | ★★★  |                           |
 | Tmux                     |                 | [✔](docs/macos/3/tmux)      | ✔     | ✗       |     |         | ★★★  |                           |
-| 微信助手                 |                 | [✔](docs/macos/3/#微信助手) |       |         | ✗   | ✗       | ★★★  |                           |
+| 微信助手                 |                 | [✔](docs/macos/3/微信助手)  |       |         | ✗   | ✗       | ★★★  |                           |
 | Postman                  | HTTP            |                             |       |         |     |         | ★★★  |                           |
 | CLion                    | IDE - C++       |                             |       |         |     |         | ★★★  |                           |
 | Robo 3T                  | IDE - MongoDB   |                             |       |         |     |         | ★★★  | 轻量级 Studio 3T          |

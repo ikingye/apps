@@ -18,11 +18,6 @@
   </url>
   
   <url>
-    <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/</loc>
-    <lastmod>2021-02-23T10:09:30+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/shortcuts/</loc>
     <lastmod>2021-02-23T10:09:30+08:00</lastmod>
   </url>
@@ -58,18 +53,13 @@
   </url>
   
   <url>
-    <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</loc>
+    <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/</loc>
     <lastmod>2021-02-23T10:09:30+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</loc>
-    <lastmod>2021-02-28T14:38:30+08:00</lastmod>
   </url>
   
   <url>
@@ -153,6 +143,11 @@
   </url>
   
   <url>
+    <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</loc>
+    <lastmod>2021-02-28T14:38:30+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/latex/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
   </url>
@@ -195,6 +190,11 @@
   <url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/graphviz/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</loc>
+    <lastmod>2021-02-23T10:09:30+08:00</lastmod>
   </url>
   
   <url>

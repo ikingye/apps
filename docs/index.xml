@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>首页 on 一些软件</title>
+    <title>首页 on 我常用的软件</title>
     <link>https://ikingye.github.io/apps/</link>
-    <description>Recent content in 首页 on 一些软件</description>
+    <description>Recent content in 首页 on 我常用的软件</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="https://ikingye.github.io/apps/index.xml" rel="self" type="application/rss+xml" />
@@ -57,30 +57,6 @@ chown $USER ~/.ssh/config chmod 644 ~/.ssh/config </description>
       <description>git submodule 拉取 submodule git submodule init git submodule update --remote git submodule add -b 参考：
  How can I specify a branch/tag when adding a Git submodule?  submodule 修改 url  edit the .gitmodules file to update the URL git submodule sync  参考： How to change the remote repository for a git submodule?
 delete submodule  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .</description>
-    </item>
-    
-    <item>
-      <title>VSCode Debug</title>
-      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</guid>
-      <description>VSCode Debug 参考：
-  USER GUIDE - Debugging
-  Debug C++ in Visual Studio Code
-  </description>
-    </item>
-    
-    <item>
-      <title>插件</title>
-      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</guid>
-      <description>VSCode 插件 Draw.io hediet/vscode-drawio This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
-设置背景色
-For set light theme, add in your settings.json next: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;atlas&amp;#34; // or if you&amp;#39;d like white menu on the top, not blue, use &amp;#34;Kennedy&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;Kennedy&amp;#34; // or if you mostly view, not edit, use &amp;#34;minimal&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;min&amp;#34; Dark: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;dark&amp;#34; 参考：
- Feature request: match theme colors   Paste Image mushanshitiancai/vscode-paste-image paste image from clipboard to markdown/asciidoc directly!</description>
     </item>
     
     <item>
@@ -213,6 +189,28 @@ cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/vim/</guid>
       <description>vim  教程 iggredible/Learn-Vim  A book for learning the Vim editor the smart way.</description>
+    </item>
+    
+    <item>
+      <title>插件</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</guid>
+      <description>VSCode 插件 Draw.io hediet/vscode-drawio This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
+设置背景色
+For set light theme, add in your settings.json next: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;atlas&amp;#34; // or if you&amp;#39;d like white menu on the top, not blue, use &amp;#34;Kennedy&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;Kennedy&amp;#34; // or if you mostly view, not edit, use &amp;#34;minimal&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;min&amp;#34; Dark: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;dark&amp;#34; 参考：
+ Feature request: match theme colors   Paste Image mushanshitiancai/vscode-paste-image paste image from clipboard to markdown/asciidoc directly!</description>
+    </item>
+    
+    <item>
+      <title>Debug</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</guid>
+      <description>VSCode Debug 参考：
+ USER GUIDE - Debugging Debug C++ in Visual Studio Code  </description>
     </item>
     
   </channel>

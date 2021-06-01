@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 10
 title: "VSCode"
 bookCollapseSection: true
 ---
@@ -8,6 +8,7 @@ bookCollapseSection: true
 
 [Microsoft/vscode](https://github.com/Microsoft/vscode) ![Github stars](https://img.shields.io/github/stars/Microsoft/vscode.svg) ![Language](https://img.shields.io/github/languages/top/Microsoft/vscode.svg) ![Last Tag](https://img.shields.io/github/v/tag/Microsoft/vscode.svg?sort=semver) ![Last commit](https://img.shields.io/github/last-commit/Microsoft/vscode.svg)
 
+## 插件
 ### 插件列表
 
 ```shell

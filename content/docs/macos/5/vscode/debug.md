@@ -1,6 +1,6 @@
 ---
-weight: 10
-title: "VSCode Debug"
+weight: 80
+title: "Debug"
 bookCollapseSection: true
 ---
 
@@ -9,5 +9,4 @@ bookCollapseSection: true
 参考：
 
 - [USER GUIDE - Debugging](https://code.visualstudio.com/docs/editor/debugging)
-
 - [Debug C++ in Visual Studio Code](https://code.visualstudio.com/docs/cpp/cpp-debug)

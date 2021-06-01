@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 20
 title: "插件"
 bookCollapseSection: true
 ---
