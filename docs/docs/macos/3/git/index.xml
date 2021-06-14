@@ -4,11 +4,7 @@
     <title>git on 我常用的软件</title>
     <link>https://ikingye.github.io/apps/docs/macos/3/git/</link>
     <description>Recent content in git on 我常用的软件</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://ikingye.github.io/apps/docs/macos/3/git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ikingye.github.io/apps/docs/macos/3/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git config</title>
       <link>https://ikingye.github.io/apps/docs/macos/3/git/config/</link>

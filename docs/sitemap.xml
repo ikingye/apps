@@ -1,218 +1,132 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/github/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/goland/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/idea/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/shortcuts/</loc>
     <lastmod>2021-02-23T10:09:30+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/ssh/config/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/git/</loc>
     <lastmod>2021-04-20T13:16:00+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/git/config/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/ssh/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/git/submodule/</loc>
     <lastmod>2021-04-20T13:16:00+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/</loc>
     <lastmod>2021-06-01T19:06:57+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/flowchart/tutorial/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/graphviz/tutorial/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/latex/tutorial/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/mermaid/tutorial/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/plantuml/tutorial/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/config/</loc>
     <lastmod>2021-02-23T10:09:30+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/package-manager/brew/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/package-manager/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/hhkb/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/axure/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/linux/</loc>
     <lastmod>2021-02-10T15:08:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/mas/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/picgo/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/tmux/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/vim/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</loc>
     <lastmod>2021-06-01T19:06:57+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/latex/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/plantuml/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/windows/</loc>
     <lastmod>2021-02-10T15:08:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/3/</loc>
     <lastmod>2021-03-16T11:11:30+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/ios/</loc>
     <lastmod>2021-02-10T15:08:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/mermaid/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/android/</loc>
     <lastmod>2021-02-10T15:08:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/flowchart/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/4/graphviz/</loc>
     <lastmod>2021-02-28T15:54:19+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</loc>
     <lastmod>2021-06-01T19:06:57+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/docs/</loc>
     <lastmod>2021-06-01T19:06:57+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/apps/</loc>
     <lastmod>2021-06-01T19:06:57+08:00</lastmod>
   </url>
-  
 </urlset>

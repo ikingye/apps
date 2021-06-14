@@ -4,10 +4,6 @@
     <title>Windows on 我常用的软件</title>
     <link>https://ikingye.github.io/apps/docs/windows/</link>
     <description>Recent content in Windows on 我常用的软件</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://ikingye.github.io/apps/docs/windows/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ikingye.github.io/apps/docs/windows/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
