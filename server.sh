@@ -1,3 +1,3 @@
 #!/bin/sh
 
-hugo server -p 1411
+hugo server -p 1211
