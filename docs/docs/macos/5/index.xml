@@ -6,6 +6,16 @@
     <description>Recent content in 五星 on 我常用的软件</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ikingye.github.io/apps/docs/macos/5/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>VSCode</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/</guid>
+      <description>VSCode #  Microsoft/vscode  安装 #  brew cask install visual-studio-code  配置 #  settings.json
+{ &amp;#34;gitlens.advanced.messages&amp;#34;: { &amp;#34;suppressShowKeyBindingsNotice&amp;#34;: true }, &amp;#34;gitlens.historyExplorer.enabled&amp;#34;: true, &amp;#34;java.errors.incompleteClasspath.severity&amp;#34;: &amp;#34;ignore&amp;#34;, &amp;#34;materialTheme.autoApplyIcons&amp;#34;: true, &amp;#34;workbench.colorCustomizations&amp;#34;: {}, &amp;#34;materialTheme.accentPrevious&amp;#34;: &amp;#34;Breaking Bad&amp;#34;, &amp;#34;workbench.colorTheme&amp;#34;: &amp;#34;Material Theme&amp;#34;, &amp;#34;materialTheme.fixIconsRunning&amp;#34;: false, // Controls the font family. &amp;#34;editor.fontFamily&amp;#34;: &amp;#34;Consolas&amp;#34;, &amp;#34;editor.lineHeight&amp;#34;: 22, &amp;#34;window.zoomLevel&amp;#34;: 0, &amp;#34;editor.fontSize&amp;#34;: 14, &amp;#34;workbench.startupEditor&amp;#34;: &amp;#34;newUntitledFile&amp;#34;, &amp;#34;editor.suggestSelection&amp;#34;: &amp;#34;first&amp;#34;, &amp;#34;vsintellicode.modify.editor.suggestSelection&amp;#34;: &amp;#34;automaticallyOverrodeDefaultValue&amp;#34;, &amp;#34;python.jediEnabled&amp;#34;: false, &amp;#34;leetcode.endpoint&amp;#34;: &amp;#34;leetcode-cn&amp;#34;, &amp;#34;python.linting.pylintEnabled&amp;#34;: true, &amp;#34;leetcode.defaultLanguage&amp;#34;: &amp;#34;golang&amp;#34;, &amp;#34;leetcode.hint.configWebviewMarkdown&amp;#34;: false, &amp;#34;leetcode.hint.commentDescription&amp;#34;: false, &amp;#34;go.</description>
+    </item>
+    
+    <item>
       <title>Goland</title>
       <link>https://ikingye.github.io/apps/docs/macos/5/goland/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -28,17 +38,6 @@
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/idea/</guid>
       <description>IntelliJ IDEA #  插件 #  Alibaba Java Coding Guidelines #   教程 #  xiaoxiunique/tool-tips #  idea 中相见恨晚的技巧 https://atips.cn/idea/</description>
-    </item>
-    
-    <item>
-      <title>VSCode</title>
-      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/</guid>
-      <description>VSCode #  Microsoft/vscode 插件 #  插件列表 #  code --list-extensions code --list-extensions --show-versions ouuan/my-vscode-extensions List your installed VS Code extensions in a Markdown file
-参考：
- Command line extension management  VSCode 推荐插件 #     插件 类型 推荐 备注     ESLint 格式化 - JavaScript ★★★★    TabNine 代码补全 ★★★★     ESLint #  Microsoft/vscode-eslint TabNine #  codota/tabnine-vscode Tabnine works with all major programming languages including JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, and React.</description>
     </item>
     
   </channel>

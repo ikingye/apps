@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 30
 title: "IntelliJ IDEA"
 bookCollapseSection: true
 ---
