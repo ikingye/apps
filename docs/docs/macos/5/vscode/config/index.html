@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
+  <meta name="generator" content="Hugo 0.83.1" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="VSCode 配置 settings.json
-{ &#34;gitlens.advanced.messages&#34;: { &#34;suppressShowKeyBindingsNotice&#34;: true }, &#34;gitlens.historyExplorer.enabled&#34;: true, &#34;java.errors.incompleteClasspath.severity&#34;: &#34;ignore&#34;, &#34;materialTheme.autoApplyIcons&#34;: true, &#34;workbench.colorCustomizations&#34;: {}, &#34;materialTheme.accentPrevious&#34;: &#34;Breaking Bad&#34;, &#34;workbench.colorTheme&#34;: &#34;Material Theme&#34;, &#34;materialTheme.fixIconsRunning&#34;: false, // Controls the font family. &#34;editor.fontFamily&#34;: &#34;Consolas&#34;, &#34;editor.lineHeight&#34;: 22, &#34;window.zoomLevel&#34;: 0, &#34;editor.fontSize&#34;: 14, &#34;workbench.startupEditor&#34;: &#34;newUntitledFile&#34;, &#34;editor.suggestSelection&#34;: &#34;first&#34;, &#34;vsintellicode.modify.editor.suggestSelection&#34;: &#34;automaticallyOverrodeDefaultValue&#34;, &#34;python.jediEnabled&#34;: false, &#34;leetcode.endpoint&#34;: &#34;leetcode-cn&#34;, &#34;python.linting.pylintEnabled&#34;: true, &#34;leetcode.defaultLanguage&#34;: &#34;golang&#34;, &#34;leetcode.hint.configWebviewMarkdown&#34;: false, &#34;leetcode.hint.commentDescription&#34;: false, &#34;go.useLanguageServer&#34;: true, &#34;[go]&#34;: { &#34;editor.formatOnSave&#34;: true, &#34;editor.codeActionsOnSave&#34;: { &#34;source.organizeImports&#34;: true }, // Optional: Disable snippets, as they conflict with completion ranking."><meta property="og:title" content="配置" />
-<meta property="og:description" content="VSCode 配置 settings.json
+<meta name="description" content="VSCode 配置 #  settings.json
+{ &#34;gitlens.advanced.messages&#34;: { &#34;suppressShowKeyBindingsNotice&#34;: true }, &#34;gitlens.historyExplorer.enabled&#34;: true, &#34;java.errors.incompleteClasspath.severity&#34;: &#34;ignore&#34;, &#34;materialTheme.autoApplyIcons&#34;: true, &#34;workbench.colorCustomizations&#34;: {}, &#34;materialTheme.accentPrevious&#34;: &#34;Breaking Bad&#34;, &#34;workbench.colorTheme&#34;: &#34;Material Theme&#34;, &#34;materialTheme.fixIconsRunning&#34;: false, // Controls the font family. &#34;editor.fontFamily&#34;: &#34;Consolas&#34;, &#34;editor.lineHeight&#34;: 22, &#34;window.zoomLevel&#34;: 0, &#34;editor.fontSize&#34;: 14, &#34;workbench.startupEditor&#34;: &#34;newUntitledFile&#34;, &#34;editor.suggestSelection&#34;: &#34;first&#34;, &#34;vsintellicode.modify.editor.suggestSelection&#34;: &#34;automaticallyOverrodeDefaultValue&#34;, &#34;python.jediEnabled&#34;: false, &#34;leetcode.endpoint&#34;: &#34;leetcode-cn&#34;, &#34;python.linting.pylintEnabled&#34;: true, &#34;leetcode.defaultLanguage&#34;: &#34;golang&#34;, &#34;leetcode.hint.configWebviewMarkdown&#34;: false, &#34;leetcode.hint.commentDescription&#34;: false, &#34;go.useLanguageServer&#34;: true, &#34;[go]&#34;: { &#34;editor.formatOnSave&#34;: true, &#34;editor.codeActionsOnSave&#34;: { &#34;source.organizeImports&#34;: true }, // Optional: Disable snippets, as they conflict with completion ranking.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="配置" />
+<meta property="og:description" content="VSCode 配置 #  settings.json
 { &#34;gitlens.advanced.messages&#34;: { &#34;suppressShowKeyBindingsNotice&#34;: true }, &#34;gitlens.historyExplorer.enabled&#34;: true, &#34;java.errors.incompleteClasspath.severity&#34;: &#34;ignore&#34;, &#34;materialTheme.autoApplyIcons&#34;: true, &#34;workbench.colorCustomizations&#34;: {}, &#34;materialTheme.accentPrevious&#34;: &#34;Breaking Bad&#34;, &#34;workbench.colorTheme&#34;: &#34;Material Theme&#34;, &#34;materialTheme.fixIconsRunning&#34;: false, // Controls the font family. &#34;editor.fontFamily&#34;: &#34;Consolas&#34;, &#34;editor.lineHeight&#34;: 22, &#34;window.zoomLevel&#34;: 0, &#34;editor.fontSize&#34;: 14, &#34;workbench.startupEditor&#34;: &#34;newUntitledFile&#34;, &#34;editor.suggestSelection&#34;: &#34;first&#34;, &#34;vsintellicode.modify.editor.suggestSelection&#34;: &#34;automaticallyOverrodeDefaultValue&#34;, &#34;python.jediEnabled&#34;: false, &#34;leetcode.endpoint&#34;: &#34;leetcode-cn&#34;, &#34;python.linting.pylintEnabled&#34;: true, &#34;leetcode.defaultLanguage&#34;: &#34;golang&#34;, &#34;leetcode.hint.configWebviewMarkdown&#34;: false, &#34;leetcode.hint.commentDescription&#34;: false, &#34;go.useLanguageServer&#34;: true, &#34;[go]&#34;: { &#34;editor.formatOnSave&#34;: true, &#34;editor.codeActionsOnSave&#34;: { &#34;source.organizeImports&#34;: true }, // Optional: Disable snippets, as they conflict with completion ranking." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ikingye.github.io/apps/docs/macos/5/vscode/config/" /><meta property="article:section" content="docs" />
@@ -14,14 +16,10 @@
 <meta property="article:modified_time" content="2021-02-23T10:09:30&#43;08:00" />
 
 <title>配置 | 我常用的软件</title>
+<link rel="manifest" href="/apps/manifest.json">
 <link rel="icon" href="/apps/favicon.png" type="image/x-icon">
-
-
-<link rel="stylesheet" href="/apps/book.min.c0eac73c59ba8c4c46d8242add7197a5e648531e07527f69b31760f60ad40b5d.css" integrity="sha256-wOrHPFm6jExG2CQq3XGXpeZIUx4HUn9psxdg9grUC10=">
-
-
-<script defer src="/apps/en.search.min.7668313656790e519c4348c7f4aa8aaa5478e22bb44da5878a0e1db8fb5add69.js" integrity="sha256-dmgxNlZ5DlGcQ0jH9KqKqlR44iu0TaWHig4duPta3Wk="></script>
-
+<link rel="stylesheet" href="/apps/book.min.e7360c502a84143addd190981586c3e3e8f082b67f6799dc9f237a599fe0be5a.css" integrity="sha256-5zYMUCqEFDrd0ZCYFYbD4&#43;jwgrZ/Z5ncnyN6WZ/gvlo=">
+<script defer src="/apps/en.search.min.043d2eac75557bcbe8f51f9685359c3ed2f28c037c76a0302109cfc764af6b8d.js" integrity="sha256-BD0urHVVe8vo9R&#43;WhTWcPtLyjAN8dqAwIQnPx2Sva40="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -30,11 +28,13 @@ https://github.com/alex-shpak/hugo-book
   
 </head>
 
-<body>
-  <input type="checkbox" class="hidden" id="menu-control" />
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
-      
+      <div class="book-menu-content">
+        
   <nav>
 <h2 class="book-brand">
   <a href="/apps"><span>我常用的软件</span>
@@ -44,7 +44,7 @@ https://github.com/alex-shpak/hugo-book
 
 <div class="book-search">
   <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
-  <div class="book-search-spinner spinner hidden"></div>
+  <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
 
@@ -68,121 +68,6 @@ https://github.com/alex-shpak/hugo-book
 
   
 
-  
-  
-
-
-
-
-
- 
-  
-    
-
-
-
-
-  
-  <ul>
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/" class="">MacOS</a>
-  
-
-
-    
-
-
-
-
-  
-  <ul>
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/5/" class="collapsed ">五星</a>
-  
-
-
-    
-
-
-
-
-  
-  <ul>
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/5/goland/" class="collapsed ">Goland</a>
-  
-
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/5/idea/" class="collapsed ">IntelliJ IDEA</a>
-  
-
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/5/vscode/" class="collapsed ">VSCode</a>
-  
-
-
-    
-
-
 
 
   
@@ -190,219 +75,691 @@ https://github.com/alex-shpak/hugo-book
     
       
         <li>
+          
+  
+  
 
   
-  <a href="/apps/docs/macos/5/vscode/shortcuts/" class="">快捷键</a>
+    <a href="https://ikingye.github.io/apps/docs/macos/" class="">MacOS</a>
   
 
-</li>
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-37f9d5a3c2609562aec02625c0a6b19e" class="toggle" checked />
+    <label for="section-37f9d5a3c2609562aec02625c0a6b19e" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/" class="">五星</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a694a0340f8b65bcab31cc7d8c6bfb8c" class="toggle"  />
+    <label for="section-a694a0340f8b65bcab31cc7d8c6bfb8c" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/goland/" class="">Goland</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
       
     
       
         <li>
+          
+  
+  
 
   
-  <a href="/apps/docs/macos/5/vscode/config/" class="active">配置</a>
+    <input type="checkbox" id="section-646dc8abed35e36144febd8ab6540a94" class="toggle"  />
+    <label for="section-646dc8abed35e36144febd8ab6540a94" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/idea/" class="">IntelliJ IDEA</a>
+    </label>
   
 
-</li>
+          
+  <ul>
+    
+  </ul>
+
+        </li>
       
     
       
         <li>
+          
+  
+  
 
   
-  <a href="/apps/docs/macos/5/vscode/extension/" class="">插件</a>
+    <input type="checkbox" id="section-3c231b03915e833ce910b889f1a467d6" class="toggle" checked />
+    <label for="section-3c231b03915e833ce910b889f1a467d6" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/" class="">VSCode</a>
+    </label>
   
 
-</li>
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e6c2cf2ef7e24c27a0ce48ea38c06be7" class="toggle"  />
+    <label for="section-e6c2cf2ef7e24c27a0ce48ea38c06be7" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/shortcuts/" class="">快捷键</a>
+    </label>
+  
+
+        </li>
       
     
       
         <li>
+          
+  
+  
 
   
-  <a href="/apps/docs/macos/5/vscode/debug/" class="">Debug</a>
+    <input type="checkbox" id="section-c3cae105c244c5a863e20aee1f58ff00" class="toggle" checked />
+    <label for="section-c3cae105c244c5a863e20aee1f58ff00" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/config/" class="active">配置</a>
+    </label>
   
 
-</li>
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f3816da4d6ed7fc4366e166b8a9c4eb8" class="toggle"  />
+    <label for="section-f3816da4d6ed7fc4366e166b8a9c4eb8" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/extension/" class="">插件</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-aec1aced2387473d1adf3e7dd9448255" class="toggle"  />
+    <label for="section-aec1aced2387473d1adf3e7dd9448255" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/debug/" class="">Debug</a>
+    </label>
+  
+
+        </li>
       
     
   </ul>
-  
 
-
-
-  </li>
-
-
+        </li>
       
     
   </ul>
-  
 
-
-
-  </li>
-
-
+        </li>
       
     
       
-        
-
-  <li>
-    
-
+        <li>
+          
   
-  <a href="/apps/docs/macos/4/" class="collapsed ">四星</a>
   
 
+  
+    <input type="checkbox" id="section-3b7182842eef068357008cfdd46c4057" class="toggle"  />
+    <label for="section-3b7182842eef068357008cfdd46c4057" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/4/" class="">四星</a>
+    </label>
+  
 
-    
-
-
-
-
-
-
-  </li>
-
-
-      
+          
+  <ul>
     
       
-        
-
-  <li>
-    
-
+        <li>
+          
   
-  <a href="/apps/docs/macos/3/" class="collapsed ">三星</a>
   
 
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/latex/" class="">LaTeX</a>
+  
 
+          
+  <ul>
     
+      
+        <li>
+          
+  
+  
 
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/latex/tutorial/" class="">教程</a>
+  
 
-
-
-
-
-  </li>
-
-
+        </li>
       
     
   </ul>
-  
 
-
-
-  </li>
-
-
+        </li>
       
     
       
-        
-
-  <li>
-    
-
+        <li>
+          
   
-  <a href="/apps/docs/linux/" class="collapsed ">Linux</a>
   
 
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/plantuml/" class="">PlantUML</a>
+  
 
-    
-
-
-
-
-
-
-  </li>
-
-
-      
+          
+  <ul>
     
       
-        
-
-  <li>
-    
-
+        <li>
+          
   
-  <span>Windows</span>
   
 
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
   
-  <span>iOS</span>
+    <a href="https://ikingye.github.io/apps/docs/macos/4/plantuml/tutorial/" class="">教程</a>
   
 
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
-  
-  <span>Android</span>
-  
-
-
-    
-
-
-
-
-
-
-  </li>
-
-
+        </li>
       
     
   </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
   
 
-
-
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/mermaid/" class="">Mermaid</a>
   
 
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/mermaid/tutorial/" class="">教程</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/flowchart/" class="">Flowchart</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/flowchart/tutorial/" class="">教程</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/graphviz/" class="">Graphviz</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/graphviz/tutorial/" class="">教程</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d5aab647dacde26c7486075c7ad06e5b" class="toggle"  />
+    <label for="section-d5aab647dacde26c7486075c7ad06e5b" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/" class="">三星</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f11d5913d78ccf38705e83e0f45f549a" class="toggle"  />
+    <label for="section-f11d5913d78ccf38705e83e0f45f549a" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/github/" class="">GitHub</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-74deed6755c5c6b344c8939c5396fc19" class="toggle"  />
+    <label for="section-74deed6755c5c6b344c8939c5396fc19" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/git/" class="">git</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-dd20200c548619953c18cbe66bb6394b" class="toggle"  />
+    <label for="section-dd20200c548619953c18cbe66bb6394b" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/git/config/" class="">git config</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-761f5f3cda41e52752a355bab6b882a1" class="toggle"  />
+    <label for="section-761f5f3cda41e52752a355bab6b882a1" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/git/submodule/" class="">submodule</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-158c40c563e2e56813bbdb7c7de42be2" class="toggle"  />
+    <label for="section-158c40c563e2e56813bbdb7c7de42be2" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/ssh/" class="">ssh</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5a5d1297d63ed99733722c180253051" class="toggle"  />
+    <label for="section-e5a5d1297d63ed99733722c180253051" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/ssh/config/" class="">config</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f7bb7ab71392c17be6cce4ca36760beb" class="toggle"  />
+    <label for="section-f7bb7ab71392c17be6cce4ca36760beb" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/package-manager/" class="">包管理工具</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5749cdfa5faea297b19e90b00c4d2b87" class="toggle"  />
+    <label for="section-5749cdfa5faea297b19e90b00c4d2b87" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/package-manager/brew/" class="">homebrew</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ad85412066a73fe575d732c05d68833e" class="toggle"  />
+    <label for="section-ad85412066a73fe575d732c05d68833e" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/hhkb/" class="">HHKB</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-da8e06000aa212ca4b8e86dd6938e7aa" class="toggle"  />
+    <label for="section-da8e06000aa212ca4b8e86dd6938e7aa" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/axure/" class="">Axure</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-67fd933caa953cf4f8f1715c7bc2a52d" class="toggle"  />
+    <label for="section-67fd933caa953cf4f8f1715c7bc2a52d" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/mas/" class="">Mas</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6b2747b3ef87b8062eb34ba54c026468" class="toggle"  />
+    <label for="section-6b2747b3ef87b8062eb34ba54c026468" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/picgo/" class="">picgo</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1c1583f0089b9bc82b7faed4926ce678" class="toggle"  />
+    <label for="section-1c1583f0089b9bc82b7faed4926ce678" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/tmux/" class="">tmux</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0047a3338f496989d99c85837c55f65f" class="toggle"  />
+    <label for="section-0047a3338f496989d99c85837c55f65f" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/vim/" class="">vim</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6ae1a891fb3a3f71d71273fc61b29b76" class="toggle"  />
+    <label for="section-6ae1a891fb3a3f71d71273fc61b29b76" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/linux/" class="">Linux</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f07598050bc3e3535f3f5e3e152ede5e" class="toggle"  />
+    <label for="section-f07598050bc3e3535f3f5e3e152ede5e" class="flex justify-between">
+      <a  class="">Windows</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8cc17d0a6c7ffca32b1ea3bf4a6cf28f" class="toggle"  />
+    <label for="section-8cc17d0a6c7ffca32b1ea3bf4a6cf28f" class="flex justify-between">
+      <a  class="">iOS</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0b4b4a390a3bab85ad2cc4b614828dcd" class="toggle"  />
+    <label for="section-0b4b4a390a3bab85ad2cc4b614828dcd" class="flex justify-between">
+      <a  class="">Android</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
 
 
 
@@ -435,6 +792,7 @@ https://github.com/alex-shpak/hugo-book
 
 
  
+      </div>
     </aside>
 
     <div class="book-page">
@@ -448,26 +806,32 @@ https://github.com/alex-shpak/hugo-book
   <strong>配置</strong>
 
   <label for="toc-control">
+    
     <img src="/apps/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
   </label>
 </div>
 
 
   
-    <input type="checkbox" class="hidden" id="toc-control" />
-    <aside class="hidden clearfix">
-      
-  <nav id="TableOfContents"></nav>
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
 
 
-    </aside>
+
+  </aside>
   
  
       </header>
 
       
       
-  <article class="markdown"><h1 id="vscode-配置">VSCode 配置</h1>
+  <article class="markdown"><h1 id="vscode-配置">
+  VSCode 配置
+  <a class="anchor" href="#vscode-%e9%85%8d%e7%bd%ae">#</a>
+</h1>
 <p><code>settings.json</code></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
   <span style="color:#f92672">&#34;gitlens.advanced.messages&#34;</span>: {
@@ -710,13 +1074,11 @@ https://github.com/alex-shpak/hugo-book
 
       <footer class="book-footer">
         
-  <div class="flex justify-between">
+  <div class="flex flex-wrap justify-between">
 
 
 
-  <div>
-    
-    <a class="flex align-center" href="https://github.com/ikingye/apps/commit/6bde3b9d3acadc997747f16acfe063debc590120" title='Last modified by yewang | 2021-02-23' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/ikingye/apps/commit/6bde3b9d3acadc997747f16acfe063debc590120" title='Last modified by yewang | 2021-02-23' target="_blank" rel="noopener">
       <img src="/apps/svg/calendar.svg" class="book-icon" alt="Calendar" />
       <span>2021-02-23</span>
     </a>
@@ -771,10 +1133,14 @@ https://github.com/alex-shpak/hugo-book
 
     
     <aside class="book-toc">
-      
-  <nav id="TableOfContents"></nav>
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
 
  
+      </div>
     </aside>
     
   </main>

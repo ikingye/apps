@@ -11,7 +11,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/git/config/</guid>
-      <description>git config config 权限 问题： Bad owner or permissions on ~/.ssh/config
+      <description>git config #  config 权限 #  问题： Bad owner or permissions on ~/.ssh/config
 解决：
 chown $USER ~/.ssh/config chmod 644 ~/.ssh/config </description>
     </item>
@@ -22,9 +22,9 @@ chown $USER ~/.ssh/config chmod 644 ~/.ssh/config </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/git/submodule/</guid>
-      <description>git submodule 拉取 submodule git submodule init git submodule update --remote git submodule add -b 参考：
- How can I specify a branch/tag when adding a Git submodule?  submodule 修改 url  edit the .gitmodules file to update the URL git submodule sync  参考： How to change the remote repository for a git submodule?
-delete submodule  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .</description>
+      <description>git submodule #  拉取 submodule #  git submodule init git submodule update --remote git submodule add -b #  参考：
+ How can I specify a branch/tag when adding a Git submodule?  submodule 修改 url #   edit the .gitmodules file to update the URL git submodule sync  参考： How to change the remote repository for a git submodule?
+delete submodule #   Delete the relevant section from the .</description>
     </item>
     
   </channel>

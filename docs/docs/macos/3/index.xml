@@ -11,8 +11,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/github/</guid>
-      <description>GitHub 设置代理 git config --global http.proxy &amp;#34;http://127.0.0.1:8081&amp;#34; git config --global https.proxy &amp;#34;http://127.0.0.1:8081&amp;#34; # socks5 代理（如 Shadowsocks） git config --global http.proxy &amp;#34;socks5://127.0.0.1:1080&amp;#34; git config --global https.proxy &amp;#34;socks5://127.0.0.1:1080&amp;#34; # 取消代理 git config --global --unset http.proxy git config --global --unset https.proxy  学习 Github Github Learning Lab Introduction to GitHub  Github 工具 cli/cli  GitHub’s official command line tool https://cli.github.com
-github/hub  A command-line tool that makes git easier to use with GitHub.</description>
+      <description>GitHub #  设置代理 #  git config --global http.proxy &amp;#34;http://127.0.0.1:8081&amp;#34; git config --global https.proxy &amp;#34;http://127.0.0.1:8081&amp;#34; # socks5 代理（如 Shadowsocks） git config --global http.proxy &amp;#34;socks5://127.0.0.1:1080&amp;#34; git config --global https.proxy &amp;#34;socks5://127.0.0.1:1080&amp;#34; # 取消代理 git config --global --unset http.proxy git config --global --unset https.proxy  学习 Github #  Github Learning Lab #  Introduction to GitHub #   Github 工具 #  cli/cli #  GitHub’s official command line tool https://cli.</description>
     </item>
     
     <item>
@@ -21,8 +20,8 @@ github/hub  A command-line tool that makes git easier to use with GitHub.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/hhkb/</guid>
-      <description>HHKB 键盘 Happy Hacking Keyboard
-使用 方向键 右侧的 Fn 键 + [ / ; &#39;</description>
+      <description>HHKB 键盘 #  Happy Hacking Keyboard
+使用 #  方向键 #  右侧的 Fn 键 + [ / ; &#39;</description>
     </item>
     
     <item>
@@ -31,8 +30,8 @@ github/hub  A command-line tool that makes git easier to use with GitHub.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/axure/</guid>
-      <description>Axure RP Rapid Prototyping 快速原型
-快捷键  cmd + D: 副本 cmd + R: 替换  </description>
+      <description>Axure RP #  Rapid Prototyping 快速原型
+快捷键 #   cmd + D: 副本 cmd + R: 替换  </description>
     </item>
     
     <item>
@@ -41,7 +40,7 @@ github/hub  A command-line tool that makes git easier to use with GitHub.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/mas/</guid>
-      <description>mas-cli/mas  Each application in the Mac App Store has a product identifier which is also used for mas-cli commands. Using mas list will show all installed applications and their product identifiers.
+      <description>mas-cli/mas #  Each application in the Mac App Store has a product identifier which is also used for mas-cli commands. Using mas list will show all installed applications and their product identifiers.
 $ mas list 446107677 Screens 407963104 Pixelmator 497799835 Xcode $ mas search Xcode 497799835 Xcode 688199928 Docs for Xcode 449589707 Dash 3 - API Docs &amp;amp; Snippets. Integrates with Xcode, Alfred, TextWrangler and many more. [...] $ mas install 808809998 ==&amp;gt; Downloading PaintCode 2 ==&amp;gt; Installed PaintCode 2 # If you want to install the first result that the search command returns, use the lucky command.</description>
     </item>
     
@@ -51,7 +50,7 @@ $ mas list 446107677 Screens 407963104 Pixelmator 497799835 Xcode $ mas search X
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/picgo/</guid>
-      <description>picgo CLI 命令 PicGo/PicGo-Core  Molunerfinn/PicGo  </description>
+      <description>picgo #  CLI 命令 #  PicGo/PicGo-Core #  Molunerfinn/PicGo #  </description>
     </item>
     
     <item>
@@ -60,10 +59,10 @@ $ mas list 446107677 Screens 407963104 Pixelmator 497799835 Xcode $ mas search X
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/tmux/</guid>
-      <description>tmux gpakosz/.tmux 配置 ChrisJohnsen/tmux-MacOSX-pasteboard  Using the Mac OS X programs pbpaste and pbcopy under tmux does not work.
+      <description>tmux #  gpakosz/.tmux 配置 #  ChrisJohnsen/tmux-MacOSX-pasteboard #  Using the Mac OS X programs pbpaste and pbcopy under tmux does not work.
 Other services and unpatched builds of screen are also affected.
-gpakosz/.tmux  Oh My Tmux!
-cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .tmux/.tmux.conf.local .  教程  tmux 2: Productive Mouse-Free Development by @bphogan. 手把手教你使用终端复用神器 Tmux，丢掉鼠标不是梦 [视频] 让你的 tmux 起死回生！[视频]  </description>
+gpakosz/.tmux #  Oh My Tmux!
+cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .tmux/.tmux.conf.local .  教程 #   tmux 2: Productive Mouse-Free Development by @bphogan. 手把手教你使用终端复用神器 Tmux，丢掉鼠标不是梦 [视频] 让你的 tmux 起死回生！[视频]  </description>
     </item>
     
     <item>
@@ -72,7 +71,7 @@ cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/vim/</guid>
-      <description>vim  教程 iggredible/Learn-Vim  A book for learning the Vim editor the smart way.</description>
+      <description>vim #   教程 #  iggredible/Learn-Vim #  A book for learning the Vim editor the smart way.</description>
     </item>
     
   </channel>

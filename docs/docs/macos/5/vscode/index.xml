@@ -11,7 +11,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/shortcuts/</guid>
-      <description>VScode 快捷键 MacOS 选择  选中所有同一个词 cmd + shift + L  跳转  左右括号跳转 cmd + shift + \ 跳到定义 cmd + 鼠标左键单击 返回光标上一个位置 ctrl + -  编辑  格式化 opt + shift + f  Windows 选择  选中所有同一个词 ctrl + shift + L  跳转  左右括号跳转 ctrl + shift + \ 跳到定义 ctrl + 鼠标左键单击 返回光标上一个位置 alt + ←   </description>
+      <description>VScode 快捷键 #  MacOS 选择  选中所有同一个词 cmd + shift + L  跳转  左右括号跳转 cmd + shift + \ 跳到定义 cmd + 鼠标左键单击 返回光标上一个位置 ctrl + -  编辑  格式化 opt + shift + f  Windows 选择  选中所有同一个词 ctrl + shift + L  跳转  左右括号跳转 ctrl + shift + \ 跳到定义 ctrl + 鼠标左键单击 返回光标上一个位置 alt + ←   </description>
     </item>
     
     <item>
@@ -20,7 +20,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/config/</guid>
-      <description>VSCode 配置 settings.json
+      <description>VSCode 配置 #  settings.json
 { &amp;#34;gitlens.advanced.messages&amp;#34;: { &amp;#34;suppressShowKeyBindingsNotice&amp;#34;: true }, &amp;#34;gitlens.historyExplorer.enabled&amp;#34;: true, &amp;#34;java.errors.incompleteClasspath.severity&amp;#34;: &amp;#34;ignore&amp;#34;, &amp;#34;materialTheme.autoApplyIcons&amp;#34;: true, &amp;#34;workbench.colorCustomizations&amp;#34;: {}, &amp;#34;materialTheme.accentPrevious&amp;#34;: &amp;#34;Breaking Bad&amp;#34;, &amp;#34;workbench.colorTheme&amp;#34;: &amp;#34;Material Theme&amp;#34;, &amp;#34;materialTheme.fixIconsRunning&amp;#34;: false, // Controls the font family. &amp;#34;editor.fontFamily&amp;#34;: &amp;#34;Consolas&amp;#34;, &amp;#34;editor.lineHeight&amp;#34;: 22, &amp;#34;window.zoomLevel&amp;#34;: 0, &amp;#34;editor.fontSize&amp;#34;: 14, &amp;#34;workbench.startupEditor&amp;#34;: &amp;#34;newUntitledFile&amp;#34;, &amp;#34;editor.suggestSelection&amp;#34;: &amp;#34;first&amp;#34;, &amp;#34;vsintellicode.modify.editor.suggestSelection&amp;#34;: &amp;#34;automaticallyOverrodeDefaultValue&amp;#34;, &amp;#34;python.jediEnabled&amp;#34;: false, &amp;#34;leetcode.endpoint&amp;#34;: &amp;#34;leetcode-cn&amp;#34;, &amp;#34;python.linting.pylintEnabled&amp;#34;: true, &amp;#34;leetcode.defaultLanguage&amp;#34;: &amp;#34;golang&amp;#34;, &amp;#34;leetcode.hint.configWebviewMarkdown&amp;#34;: false, &amp;#34;leetcode.hint.commentDescription&amp;#34;: false, &amp;#34;go.useLanguageServer&amp;#34;: true, &amp;#34;[go]&amp;#34;: { &amp;#34;editor.formatOnSave&amp;#34;: true, &amp;#34;editor.codeActionsOnSave&amp;#34;: { &amp;#34;source.organizeImports&amp;#34;: true }, // Optional: Disable snippets, as they conflict with completion ranking.</description>
     </item>
     
@@ -30,10 +30,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</guid>
-      <description>VSCode 插件 Draw.io hediet/vscode-drawio This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
+      <description>VSCode 插件 #  Draw.io #  hediet/vscode-drawio This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
 设置背景色
 For set light theme, add in your settings.json next: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;atlas&amp;#34; // or if you&amp;#39;d like white menu on the top, not blue, use &amp;#34;Kennedy&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;Kennedy&amp;#34; // or if you mostly view, not edit, use &amp;#34;minimal&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;min&amp;#34; Dark: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;dark&amp;#34; 参考：
- Feature request: match theme colors   Paste Image mushanshitiancai/vscode-paste-image paste image from clipboard to markdown/asciidoc directly!</description>
+ Feature request: match theme colors   Paste Image #  mushanshitiancai/vscode-paste-image paste image from clipboard to markdown/asciidoc directly!</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ For set light theme, add in your settings.json next: &amp;#34;hediet.vscode-draw
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</guid>
-      <description>VSCode Debug 参考：
+      <description>VSCode Debug #  参考：
  USER GUIDE - Debugging Debug C++ in Visual Studio Code  </description>
     </item>
     

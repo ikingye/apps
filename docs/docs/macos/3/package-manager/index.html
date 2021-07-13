@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
+  <meta name="generator" content="Hugo 0.83.1" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="包管理工具 Linux Ubuntu apt sudo apt install # download .deb package sudo dpkg -i fd_8.0.0_amd64.deb # adapt version number and architecture Debian apt-get sudo apt-get install Fedora dnf dnf install dnf copr dnf copr enable keefle/fd dnf install fd Alpine Linux apk apk add Arch Linux pacman pacman -S Gentoo Linux emerge emerge -av openSUSE Linux zypper zypper in Void Linux xbps-install xbps-install -S FreeBSD pkg pkg install  Mac Homebrew MacPorts  Windows Scoop Chocolatey 其他 NixOS / via Nix Nix package manager nix-env -i Node."><meta property="og:title" content="包管理工具" />
+<meta name="description" content="包管理工具 #  Linux #  Ubuntu #  apt #  sudo apt install # download .deb package sudo dpkg -i fd_8.0.0_amd64.deb # adapt version number and architecture Debian #  apt-get #  sudo apt-get install Fedora #  dnf #  dnf install dnf copr #  dnf copr enable keefle/fd dnf install fd Alpine Linux #  apk #  apk add Arch Linux #  pacman #  pacman -S Gentoo Linux #  emerge #  emerge -av openSUSE Linux #  zypper #  zypper in Void Linux #  xbps-install #  xbps-install -S FreeBSD #  pkg #  pkg install  Mac #  Homebrew #  MacPorts #   Windows #  Scoop #  Chocolatey #  其他 #  NixOS / via Nix #  Nix package manager #  nix-env -i Node.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="包管理工具" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ikingye.github.io/apps/docs/macos/3/package-manager/" />
 
 <title>包管理工具 | 我常用的软件</title>
+<link rel="manifest" href="/apps/manifest.json">
 <link rel="icon" href="/apps/favicon.png" type="image/x-icon">
-
-
-<link rel="stylesheet" href="/apps/book.min.c0eac73c59ba8c4c46d8242add7197a5e648531e07527f69b31760f60ad40b5d.css" integrity="sha256-wOrHPFm6jExG2CQq3XGXpeZIUx4HUn9psxdg9grUC10=">
-
-
-<script defer src="/apps/en.search.min.7668313656790e519c4348c7f4aa8aaa5478e22bb44da5878a0e1db8fb5add69.js" integrity="sha256-dmgxNlZ5DlGcQ0jH9KqKqlR44iu0TaWHig4duPta3Wk="></script>
-
+<link rel="stylesheet" href="/apps/book.min.e7360c502a84143addd190981586c3e3e8f082b67f6799dc9f237a599fe0be5a.css" integrity="sha256-5zYMUCqEFDrd0ZCYFYbD4&#43;jwgrZ/Z5ncnyN6WZ/gvlo=">
+<script defer src="/apps/en.search.min.043d2eac75557bcbe8f51f9685359c3ed2f28c037c76a0302109cfc764af6b8d.js" integrity="sha256-BD0urHVVe8vo9R&#43;WhTWcPtLyjAN8dqAwIQnPx2Sva40="></script>
 <link rel="alternate" type="application/rss+xml" href="https://ikingye.github.io/apps/docs/macos/3/package-manager/index.xml" title="我常用的软件" />
 <!--
 Made with Book Theme
@@ -27,11 +25,13 @@ https://github.com/alex-shpak/hugo-book
   
 </head>
 
-<body>
-  <input type="checkbox" class="hidden" id="menu-control" />
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
-      
+      <div class="book-menu-content">
+        
   <nav>
 <h2 class="book-brand">
   <a href="/apps"><span>我常用的软件</span>
@@ -41,7 +41,7 @@ https://github.com/alex-shpak/hugo-book
 
 <div class="book-search">
   <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
-  <div class="book-search-spinner spinner hidden"></div>
+  <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
 
@@ -65,102 +65,6 @@ https://github.com/alex-shpak/hugo-book
 
   
 
-  
-  
-
-
-
-
-
- 
-  
-    
-
-
-
-
-  
-  <ul>
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/" class="">MacOS</a>
-  
-
-
-    
-
-
-
-
-  
-  <ul>
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/5/" class="collapsed ">五星</a>
-  
-
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/4/" class="collapsed ">四星</a>
-  
-
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/3/" class="collapsed ">三星</a>
-  
-
-
-    
-
-
 
 
   
@@ -168,278 +72,691 @@ https://github.com/alex-shpak/hugo-book
     
       
         <li>
-
+          
   
-  <a href="/apps/docs/macos/3/github/" class="">GitHub</a>
-  
-
-</li>
-      
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/3/git/" class="collapsed ">git</a>
   
 
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
   
-  <a href="/apps/docs/macos/3/ssh/" class="collapsed ">ssh</a>
+    <a href="https://ikingye.github.io/apps/docs/macos/" class="">MacOS</a>
   
 
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
-  
-  <a href="/apps/docs/macos/3/package-manager/" class="collapsed active">包管理工具</a>
-  
-
-
-    
-
-
-
-
-  
+          
   <ul>
     
       
         <li>
+          
+  
+  
 
   
-  <a href="/apps/docs/macos/3/package-manager/brew/" class="">homebrew</a>
+    <input type="checkbox" id="section-37f9d5a3c2609562aec02625c0a6b19e" class="toggle"  />
+    <label for="section-37f9d5a3c2609562aec02625c0a6b19e" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/" class="">五星</a>
+    </label>
   
 
-</li>
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a694a0340f8b65bcab31cc7d8c6bfb8c" class="toggle"  />
+    <label for="section-a694a0340f8b65bcab31cc7d8c6bfb8c" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/goland/" class="">Goland</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-646dc8abed35e36144febd8ab6540a94" class="toggle"  />
+    <label for="section-646dc8abed35e36144febd8ab6540a94" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/idea/" class="">IntelliJ IDEA</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3c231b03915e833ce910b889f1a467d6" class="toggle"  />
+    <label for="section-3c231b03915e833ce910b889f1a467d6" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/" class="">VSCode</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e6c2cf2ef7e24c27a0ce48ea38c06be7" class="toggle"  />
+    <label for="section-e6c2cf2ef7e24c27a0ce48ea38c06be7" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/shortcuts/" class="">快捷键</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c3cae105c244c5a863e20aee1f58ff00" class="toggle"  />
+    <label for="section-c3cae105c244c5a863e20aee1f58ff00" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/config/" class="">配置</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f3816da4d6ed7fc4366e166b8a9c4eb8" class="toggle"  />
+    <label for="section-f3816da4d6ed7fc4366e166b8a9c4eb8" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/extension/" class="">插件</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-aec1aced2387473d1adf3e7dd9448255" class="toggle"  />
+    <label for="section-aec1aced2387473d1adf3e7dd9448255" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/5/vscode/debug/" class="">Debug</a>
+    </label>
+  
+
+        </li>
       
     
   </ul>
-  
 
-
-
-  </li>
-
-
-      
-    
-      
-        <li>
-
-  
-  <a href="/apps/docs/macos/3/hhkb/" class="">HHKB</a>
-  
-
-</li>
-      
-    
-      
-        <li>
-
-  
-  <a href="/apps/docs/macos/3/axure/" class="">Axure</a>
-  
-
-</li>
-      
-    
-      
-        <li>
-
-  
-  <a href="/apps/docs/macos/3/mas/" class="">Mas</a>
-  
-
-</li>
-      
-    
-      
-        <li>
-
-  
-  <a href="/apps/docs/macos/3/picgo/" class="">picgo</a>
-  
-
-</li>
-      
-    
-      
-        <li>
-
-  
-  <a href="/apps/docs/macos/3/tmux/" class="">tmux</a>
-  
-
-</li>
-      
-    
-      
-        <li>
-
-  
-  <a href="/apps/docs/macos/3/vim/" class="">vim</a>
-  
-
-</li>
+        </li>
       
     
   </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
   
 
+  
+    <input type="checkbox" id="section-3b7182842eef068357008cfdd46c4057" class="toggle"  />
+    <label for="section-3b7182842eef068357008cfdd46c4057" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/4/" class="">四星</a>
+    </label>
+  
 
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
 
-  </li>
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/latex/" class="">LaTeX</a>
+  
 
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
 
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/latex/tutorial/" class="">教程</a>
+  
+
+        </li>
       
     
   </ul>
-  
 
-
-
-  </li>
-
-
+        </li>
       
     
       
-        
-
-  <li>
-    
-
+        <li>
+          
   
-  <a href="/apps/docs/linux/" class="collapsed ">Linux</a>
   
 
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/plantuml/" class="">PlantUML</a>
+  
 
-    
-
-
-
-
-
-
-  </li>
-
-
-      
+          
+  <ul>
     
       
-        
-
-  <li>
-    
-
+        <li>
+          
   
-  <span>Windows</span>
   
 
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
   
-  <span>iOS</span>
+    <a href="https://ikingye.github.io/apps/docs/macos/4/plantuml/tutorial/" class="">教程</a>
   
 
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li>
-    
-
-  
-  <span>Android</span>
-  
-
-
-    
-
-
-
-
-
-
-  </li>
-
-
+        </li>
       
     
   </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
   
 
-
-
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/mermaid/" class="">Mermaid</a>
   
 
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/mermaid/tutorial/" class="">教程</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/flowchart/" class="">Flowchart</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/flowchart/tutorial/" class="">教程</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/graphviz/" class="">Graphviz</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://ikingye.github.io/apps/docs/macos/4/graphviz/tutorial/" class="">教程</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d5aab647dacde26c7486075c7ad06e5b" class="toggle" checked />
+    <label for="section-d5aab647dacde26c7486075c7ad06e5b" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/" class="">三星</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f11d5913d78ccf38705e83e0f45f549a" class="toggle"  />
+    <label for="section-f11d5913d78ccf38705e83e0f45f549a" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/github/" class="">GitHub</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-74deed6755c5c6b344c8939c5396fc19" class="toggle"  />
+    <label for="section-74deed6755c5c6b344c8939c5396fc19" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/git/" class="">git</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-dd20200c548619953c18cbe66bb6394b" class="toggle"  />
+    <label for="section-dd20200c548619953c18cbe66bb6394b" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/git/config/" class="">git config</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-761f5f3cda41e52752a355bab6b882a1" class="toggle"  />
+    <label for="section-761f5f3cda41e52752a355bab6b882a1" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/git/submodule/" class="">submodule</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-158c40c563e2e56813bbdb7c7de42be2" class="toggle"  />
+    <label for="section-158c40c563e2e56813bbdb7c7de42be2" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/ssh/" class="">ssh</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5a5d1297d63ed99733722c180253051" class="toggle"  />
+    <label for="section-e5a5d1297d63ed99733722c180253051" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/ssh/config/" class="">config</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f7bb7ab71392c17be6cce4ca36760beb" class="toggle" checked />
+    <label for="section-f7bb7ab71392c17be6cce4ca36760beb" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/package-manager/" class="active">包管理工具</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5749cdfa5faea297b19e90b00c4d2b87" class="toggle"  />
+    <label for="section-5749cdfa5faea297b19e90b00c4d2b87" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/package-manager/brew/" class="">homebrew</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ad85412066a73fe575d732c05d68833e" class="toggle"  />
+    <label for="section-ad85412066a73fe575d732c05d68833e" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/hhkb/" class="">HHKB</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-da8e06000aa212ca4b8e86dd6938e7aa" class="toggle"  />
+    <label for="section-da8e06000aa212ca4b8e86dd6938e7aa" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/axure/" class="">Axure</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-67fd933caa953cf4f8f1715c7bc2a52d" class="toggle"  />
+    <label for="section-67fd933caa953cf4f8f1715c7bc2a52d" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/mas/" class="">Mas</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6b2747b3ef87b8062eb34ba54c026468" class="toggle"  />
+    <label for="section-6b2747b3ef87b8062eb34ba54c026468" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/picgo/" class="">picgo</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1c1583f0089b9bc82b7faed4926ce678" class="toggle"  />
+    <label for="section-1c1583f0089b9bc82b7faed4926ce678" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/tmux/" class="">tmux</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0047a3338f496989d99c85837c55f65f" class="toggle"  />
+    <label for="section-0047a3338f496989d99c85837c55f65f" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/macos/3/vim/" class="">vim</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6ae1a891fb3a3f71d71273fc61b29b76" class="toggle"  />
+    <label for="section-6ae1a891fb3a3f71d71273fc61b29b76" class="flex justify-between">
+      <a href="https://ikingye.github.io/apps/docs/linux/" class="">Linux</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f07598050bc3e3535f3f5e3e152ede5e" class="toggle"  />
+    <label for="section-f07598050bc3e3535f3f5e3e152ede5e" class="flex justify-between">
+      <a  class="">Windows</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8cc17d0a6c7ffca32b1ea3bf4a6cf28f" class="toggle"  />
+    <label for="section-8cc17d0a6c7ffca32b1ea3bf4a6cf28f" class="flex justify-between">
+      <a  class="">iOS</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0b4b4a390a3bab85ad2cc4b614828dcd" class="toggle"  />
+    <label for="section-0b4b4a390a3bab85ad2cc4b614828dcd" class="flex justify-between">
+      <a  class="">Android</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
 
 
 
@@ -472,6 +789,7 @@ https://github.com/alex-shpak/hugo-book
 
 
  
+      </div>
     </aside>
 
     <div class="book-page">
@@ -485,16 +803,18 @@ https://github.com/alex-shpak/hugo-book
   <strong>包管理工具</strong>
 
   <label for="toc-control">
+    
     <img src="/apps/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
   </label>
 </div>
 
 
   
-    <input type="checkbox" class="hidden" id="toc-control" />
-    <aside class="hidden clearfix">
-      
-  <nav id="TableOfContents">
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#linux">Linux</a>
       <ul>
@@ -584,66 +904,169 @@ https://github.com/alex-shpak/hugo-book
 </nav>
 
 
-    </aside>
+
+  </aside>
   
  
       </header>
 
       
       
-  <article class="markdown"><h1 id="包管理工具">包管理工具</h1>
-<h2 id="linux">Linux</h2>
-<h3 id="ubuntu">Ubuntu</h3>
-<h4 id="apt">apt</h4>
+  <article class="markdown"><h1 id="包管理工具">
+  包管理工具
+  <a class="anchor" href="#%e5%8c%85%e7%ae%a1%e7%90%86%e5%b7%a5%e5%85%b7">#</a>
+</h1>
+<h2 id="linux">
+  Linux
+  <a class="anchor" href="#linux">#</a>
+</h2>
+<h3 id="ubuntu">
+  Ubuntu
+  <a class="anchor" href="#ubuntu">#</a>
+</h3>
+<h4 id="apt">
+  apt
+  <a class="anchor" href="#apt">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt install
 
 <span style="color:#75715e"># download .deb package</span>
 sudo dpkg -i fd_8.0.0_amd64.deb  <span style="color:#75715e"># adapt version number and architecture</span>
-</code></pre></div><h3 id="debian">Debian</h3>
-<h4 id="apt-get">apt-get</h4>
+</code></pre></div><h3 id="debian">
+  Debian
+  <a class="anchor" href="#debian">#</a>
+</h3>
+<h4 id="apt-get">
+  apt-get
+  <a class="anchor" href="#apt-get">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get install
-</code></pre></div><h3 id="fedora">Fedora</h3>
-<h4 id="dnf">dnf</h4>
+</code></pre></div><h3 id="fedora">
+  Fedora
+  <a class="anchor" href="#fedora">#</a>
+</h3>
+<h4 id="dnf">
+  dnf
+  <a class="anchor" href="#dnf">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">dnf install
-</code></pre></div><h5 id="dnf-copr">dnf copr</h5>
+</code></pre></div><h5 id="dnf-copr">
+  dnf copr
+  <a class="anchor" href="#dnf-copr">#</a>
+</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">dnf copr enable keefle/fd
 dnf install fd
-</code></pre></div><h3 id="alpine-linux">Alpine Linux</h3>
-<h4 id="apk">apk</h4>
+</code></pre></div><h3 id="alpine-linux">
+  Alpine Linux
+  <a class="anchor" href="#alpine-linux">#</a>
+</h3>
+<h4 id="apk">
+  apk
+  <a class="anchor" href="#apk">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">apk add
-</code></pre></div><h3 id="arch-linux">Arch Linux</h3>
-<h4 id="pacman">pacman</h4>
+</code></pre></div><h3 id="arch-linux">
+  Arch Linux
+  <a class="anchor" href="#arch-linux">#</a>
+</h3>
+<h4 id="pacman">
+  pacman
+  <a class="anchor" href="#pacman">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pacman -S
-</code></pre></div><h3 id="gentoo-linux">Gentoo Linux</h3>
-<h4 id="emerge">emerge</h4>
+</code></pre></div><h3 id="gentoo-linux">
+  Gentoo Linux
+  <a class="anchor" href="#gentoo-linux">#</a>
+</h3>
+<h4 id="emerge">
+  emerge
+  <a class="anchor" href="#emerge">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">emerge -av
-</code></pre></div><h3 id="opensuse-linux">openSUSE Linux</h3>
-<h4 id="zypper">zypper</h4>
+</code></pre></div><h3 id="opensuse-linux">
+  openSUSE Linux
+  <a class="anchor" href="#opensuse-linux">#</a>
+</h3>
+<h4 id="zypper">
+  zypper
+  <a class="anchor" href="#zypper">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">zypper in
-</code></pre></div><h3 id="void-linux">Void Linux</h3>
-<h4 id="xbps-install">xbps-install</h4>
+</code></pre></div><h3 id="void-linux">
+  Void Linux
+  <a class="anchor" href="#void-linux">#</a>
+</h3>
+<h4 id="xbps-install">
+  xbps-install
+  <a class="anchor" href="#xbps-install">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">xbps-install -S
-</code></pre></div><h3 id="freebsd">FreeBSD</h3>
-<h4 id="pkg">pkg</h4>
+</code></pre></div><h3 id="freebsd">
+  FreeBSD
+  <a class="anchor" href="#freebsd">#</a>
+</h3>
+<h4 id="pkg">
+  pkg
+  <a class="anchor" href="#pkg">#</a>
+</h4>
 <pre><code>pkg install
 </code></pre><hr>
-<h2 id="mac">Mac</h2>
-<h3 id="homebrew">Homebrew</h3>
-<h3 id="macports">MacPorts</h3>
+<h2 id="mac">
+  Mac
+  <a class="anchor" href="#mac">#</a>
+</h2>
+<h3 id="homebrew">
+  Homebrew
+  <a class="anchor" href="#homebrew">#</a>
+</h3>
+<h3 id="macports">
+  MacPorts
+  <a class="anchor" href="#macports">#</a>
+</h3>
 <hr>
-<h2 id="windows">Windows</h2>
-<h3 id="scoophttpscoopsh"><a href="http://scoop.sh/">Scoop</a></h3>
-<h3 id="chocolateyhttpschocolateyorg"><a href="https://chocolatey.org/">Chocolatey</a></h3>
-<h2 id="其他">其他</h2>
-<h3 id="nixos--via-nix">NixOS / via Nix</h3>
-<h4 id="nix-package-managerhttpsnixosorgnix"><a href="https://nixos.org/nix/">Nix package manager</a></h4>
+<h2 id="windows">
+  Windows
+  <a class="anchor" href="#windows">#</a>
+</h2>
+<h3 id="scoophttpscoopsh">
+  <a href="http://scoop.sh/">Scoop</a>
+  <a class="anchor" href="#scoophttpscoopsh">#</a>
+</h3>
+<h3 id="chocolateyhttpschocolateyorg">
+  <a href="https://chocolatey.org/">Chocolatey</a>
+  <a class="anchor" href="#chocolateyhttpschocolateyorg">#</a>
+</h3>
+<h2 id="其他">
+  其他
+  <a class="anchor" href="#%e5%85%b6%e4%bb%96">#</a>
+</h2>
+<h3 id="nixos--via-nix">
+  NixOS / via Nix
+  <a class="anchor" href="#nixos--via-nix">#</a>
+</h3>
+<h4 id="nix-package-managerhttpsnixosorgnix">
+  <a href="https://nixos.org/nix/">Nix package manager</a>
+  <a class="anchor" href="#nix-package-managerhttpsnixosorgnix">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nix-env -i
-</code></pre></div><h3 id="nodejs">Node.js</h3>
-<h4 id="npm">NPM</h4>
+</code></pre></div><h3 id="nodejs">
+  Node.js
+  <a class="anchor" href="#nodejs">#</a>
+</h3>
+<h4 id="npm">
+  NPM
+  <a class="anchor" href="#npm">#</a>
+</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># On linux and macOS</span>
 npm install -g
-</code></pre></div><h3 id="rust">Rust</h3>
-<h4 id="cargo">cargo</h4>
+</code></pre></div><h3 id="rust">
+  Rust
+  <a class="anchor" href="#rust">#</a>
+</h3>
+<h4 id="cargo">
+  cargo
+  <a class="anchor" href="#cargo">#</a>
+</h4>
 <pre><code>cargo install
 </code></pre></article>
  
@@ -651,13 +1074,11 @@ npm install -g
 
       <footer class="book-footer">
         
-  <div class="flex justify-between">
+  <div class="flex flex-wrap justify-between">
 
 
 
-  <div>
-    
-    <a class="flex align-center" href="https://github.com/ikingye/apps/commit/a8ab80b4810bc422cfcd6d6bc3fd1a2b6d5c924f" title='Last modified by yewang | 2021-02-28' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/ikingye/apps/commit/a8ab80b4810bc422cfcd6d6bc3fd1a2b6d5c924f" title='Last modified by yewang | 2021-02-28' target="_blank" rel="noopener">
       <img src="/apps/svg/calendar.svg" class="book-icon" alt="Calendar" />
       <span>2021-02-28</span>
     </a>
@@ -712,8 +1133,10 @@ npm install -g
 
     
     <aside class="book-toc">
-      
-  <nav id="TableOfContents">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#linux">Linux</a>
       <ul>
@@ -802,7 +1225,9 @@ npm install -g
   </ul>
 </nav>
 
+
  
+      </div>
     </aside>
     
   </main>

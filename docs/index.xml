@@ -11,8 +11,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/github/</guid>
-      <description>GitHub 设置代理 git config --global http.proxy &amp;#34;http://127.0.0.1:8081&amp;#34; git config --global https.proxy &amp;#34;http://127.0.0.1:8081&amp;#34; # socks5 代理（如 Shadowsocks） git config --global http.proxy &amp;#34;socks5://127.0.0.1:1080&amp;#34; git config --global https.proxy &amp;#34;socks5://127.0.0.1:1080&amp;#34; # 取消代理 git config --global --unset http.proxy git config --global --unset https.proxy  学习 Github Github Learning Lab Introduction to GitHub  Github 工具 cli/cli  GitHub’s official command line tool https://cli.github.com
-github/hub  A command-line tool that makes git easier to use with GitHub.</description>
+      <description>GitHub #  设置代理 #  git config --global http.proxy &amp;#34;http://127.0.0.1:8081&amp;#34; git config --global https.proxy &amp;#34;http://127.0.0.1:8081&amp;#34; # socks5 代理（如 Shadowsocks） git config --global http.proxy &amp;#34;socks5://127.0.0.1:1080&amp;#34; git config --global https.proxy &amp;#34;socks5://127.0.0.1:1080&amp;#34; # 取消代理 git config --global --unset http.proxy git config --global --unset https.proxy  学习 Github #  Github Learning Lab #  Introduction to GitHub #   Github 工具 #  cli/cli #  GitHub’s official command line tool https://cli.</description>
     </item>
     
     <item>
@@ -21,7 +20,7 @@ github/hub  A command-line tool that makes git easier to use with GitHub.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/shortcuts/</guid>
-      <description>VScode 快捷键 MacOS 选择  选中所有同一个词 cmd + shift + L  跳转  左右括号跳转 cmd + shift + \ 跳到定义 cmd + 鼠标左键单击 返回光标上一个位置 ctrl + -  编辑  格式化 opt + shift + f  Windows 选择  选中所有同一个词 ctrl + shift + L  跳转  左右括号跳转 ctrl + shift + \ 跳到定义 ctrl + 鼠标左键单击 返回光标上一个位置 alt + ←   </description>
+      <description>VScode 快捷键 #  MacOS 选择  选中所有同一个词 cmd + shift + L  跳转  左右括号跳转 cmd + shift + \ 跳到定义 cmd + 鼠标左键单击 返回光标上一个位置 ctrl + -  编辑  格式化 opt + shift + f  Windows 选择  选中所有同一个词 ctrl + shift + L  跳转  左右括号跳转 ctrl + shift + \ 跳到定义 ctrl + 鼠标左键单击 返回光标上一个位置 alt + ←   </description>
     </item>
     
     <item>
@@ -30,7 +29,7 @@ github/hub  A command-line tool that makes git easier to use with GitHub.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/ssh/config/</guid>
-      <description>config my config ################ vps ################ Host bcc HostName 106.13.4.39 User root IdentityFile ~/.ssh/id_rsa Host vultr HostName 149.28.142.246 User root IdentityFile ~/.ssh/id_rsa ################ baidu ################ Host baidu HostName relay.baidu-int.com User yewang ################ git ################ Host github HostName github.com User git IdentityFile ~/.ssh/id_rsa ProxyCommand nc -v -x 127.0.0.1:1081 %h %p Host gitlab HostName gitlab.com User git IdentityFile ~/.ssh/id_rsa ProxyCommand nc -v -x 127.0.0.1:1081 %h %p Host bitbucket HostName bitbucket.org User git IdentityFile ~/.</description>
+      <description>config #  my config #  ################ vps ################ Host bcc HostName 106.13.4.39 User root IdentityFile ~/.ssh/id_rsa Host vultr HostName 149.28.142.246 User root IdentityFile ~/.ssh/id_rsa ################ baidu ################ Host baidu HostName relay.baidu-int.com User yewang ################ git ################ Host github HostName github.com User git IdentityFile ~/.ssh/id_rsa ProxyCommand nc -v -x 127.0.0.1:1081 %h %p Host gitlab HostName gitlab.com User git IdentityFile ~/.ssh/id_rsa ProxyCommand nc -v -x 127.0.0.1:1081 %h %p Host bitbucket HostName bitbucket.</description>
     </item>
     
     <item>
@@ -39,7 +38,7 @@ github/hub  A command-line tool that makes git easier to use with GitHub.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/git/config/</guid>
-      <description>git config config 权限 问题： Bad owner or permissions on ~/.ssh/config
+      <description>git config #  config 权限 #  问题： Bad owner or permissions on ~/.ssh/config
 解决：
 chown $USER ~/.ssh/config chmod 644 ~/.ssh/config </description>
     </item>
@@ -50,9 +49,9 @@ chown $USER ~/.ssh/config chmod 644 ~/.ssh/config </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/git/submodule/</guid>
-      <description>git submodule 拉取 submodule git submodule init git submodule update --remote git submodule add -b 参考：
- How can I specify a branch/tag when adding a Git submodule?  submodule 修改 url  edit the .gitmodules file to update the URL git submodule sync  参考： How to change the remote repository for a git submodule?
-delete submodule  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .</description>
+      <description>git submodule #  拉取 submodule #  git submodule init git submodule update --remote git submodule add -b #  参考：
+ How can I specify a branch/tag when adding a Git submodule?  submodule 修改 url #   edit the .gitmodules file to update the URL git submodule sync  参考： How to change the remote repository for a git submodule?
+delete submodule #   Delete the relevant section from the .</description>
     </item>
     
     <item>
@@ -61,7 +60,7 @@ delete submodule  Delete the relevant section from the .gitmodules file. Stage t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/4/flowchart/tutorial/</guid>
-      <description>Flowchart 教程 </description>
+      <description>Flowchart 教程 #  </description>
     </item>
     
     <item>
@@ -70,7 +69,7 @@ delete submodule  Delete the relevant section from the .gitmodules file. Stage t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/4/graphviz/tutorial/</guid>
-      <description>Graphviz 教程 http://www.graphviz.org/documentation/</description>
+      <description>Graphviz 教程 #  http://www.graphviz.org/documentation/</description>
     </item>
     
     <item>
@@ -79,7 +78,7 @@ delete submodule  Delete the relevant section from the .gitmodules file. Stage t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/4/latex/tutorial/</guid>
-      <description>LaTeX 教程 基础 dspinellis/latex-advice  </description>
+      <description>LaTeX 教程 #  基础 #  dspinellis/latex-advice #  </description>
     </item>
     
     <item>
@@ -88,7 +87,7 @@ delete submodule  Delete the relevant section from the .gitmodules file. Stage t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/4/mermaid/tutorial/</guid>
-      <description>Mermaid 教程 基础 </description>
+      <description>Mermaid 教程 #  基础 #  </description>
     </item>
     
     <item>
@@ -97,7 +96,7 @@ delete submodule  Delete the relevant section from the .gitmodules file. Stage t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/4/plantuml/tutorial/</guid>
-      <description>PlantUML 教程 </description>
+      <description>PlantUML 教程 #  </description>
     </item>
     
     <item>
@@ -106,7 +105,7 @@ delete submodule  Delete the relevant section from the .gitmodules file. Stage t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/config/</guid>
-      <description>VSCode 配置 settings.json
+      <description>VSCode 配置 #  settings.json
 { &amp;#34;gitlens.advanced.messages&amp;#34;: { &amp;#34;suppressShowKeyBindingsNotice&amp;#34;: true }, &amp;#34;gitlens.historyExplorer.enabled&amp;#34;: true, &amp;#34;java.errors.incompleteClasspath.severity&amp;#34;: &amp;#34;ignore&amp;#34;, &amp;#34;materialTheme.autoApplyIcons&amp;#34;: true, &amp;#34;workbench.colorCustomizations&amp;#34;: {}, &amp;#34;materialTheme.accentPrevious&amp;#34;: &amp;#34;Breaking Bad&amp;#34;, &amp;#34;workbench.colorTheme&amp;#34;: &amp;#34;Material Theme&amp;#34;, &amp;#34;materialTheme.fixIconsRunning&amp;#34;: false, // Controls the font family. &amp;#34;editor.fontFamily&amp;#34;: &amp;#34;Consolas&amp;#34;, &amp;#34;editor.lineHeight&amp;#34;: 22, &amp;#34;window.zoomLevel&amp;#34;: 0, &amp;#34;editor.fontSize&amp;#34;: 14, &amp;#34;workbench.startupEditor&amp;#34;: &amp;#34;newUntitledFile&amp;#34;, &amp;#34;editor.suggestSelection&amp;#34;: &amp;#34;first&amp;#34;, &amp;#34;vsintellicode.modify.editor.suggestSelection&amp;#34;: &amp;#34;automaticallyOverrodeDefaultValue&amp;#34;, &amp;#34;python.jediEnabled&amp;#34;: false, &amp;#34;leetcode.endpoint&amp;#34;: &amp;#34;leetcode-cn&amp;#34;, &amp;#34;python.linting.pylintEnabled&amp;#34;: true, &amp;#34;leetcode.defaultLanguage&amp;#34;: &amp;#34;golang&amp;#34;, &amp;#34;leetcode.hint.configWebviewMarkdown&amp;#34;: false, &amp;#34;leetcode.hint.commentDescription&amp;#34;: false, &amp;#34;go.useLanguageServer&amp;#34;: true, &amp;#34;[go]&amp;#34;: { &amp;#34;editor.formatOnSave&amp;#34;: true, &amp;#34;editor.codeActionsOnSave&amp;#34;: { &amp;#34;source.organizeImports&amp;#34;: true }, // Optional: Disable snippets, as they conflict with completion ranking.</description>
     </item>
     
@@ -116,15 +115,15 @@ delete submodule  Delete the relevant section from the .gitmodules file. Stage t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/package-manager/brew/</guid>
-      <description>Homebrew tap brew tap 可以为 brew 的软件的 跟踪，更新，安装添加更多的的 tap formulae
+      <description>Homebrew #  tap #  brew tap 可以为 brew 的软件的 跟踪，更新，安装添加更多的的 tap formulae
 如果你在核心仓库没有找到你需要的软件，那么你就需要安装第三方的仓库去安装你需要的软件
 tap 命令的仓库源默认来至于 Github，但是这个命令也不限制于这一个地方
-brew tap 没有参数会自动更新已经存在的 tap 并列出当前已经 tapped 的仓库
+brew tap #  没有参数会自动更新已经存在的 tap 并列出当前已经 tapped 的仓库
 # URL 默认是 https://github.com/user/homebrew-repo brew tap &amp;lt;user&amp;gt;/&amp;lt;repo&amp;gt; brew tap &amp;lt;user&amp;gt;/&amp;lt;homebrew-repo&amp;gt; # URL 可以是任何位置，任何协议 brew tap &amp;lt;user&amp;gt;/&amp;lt;repo&amp;gt; URL homebrew/core 默认是最高优先级
 可以使用 brew tap-pin username/repo 使这个仓库优先级高于 core
 使用 brew-tap-unpin username/repo 取消
 当你使用 brew install foo 这个命令时，brew 将按照下面的顺序去查找哪个 formula(tap) 将被使用:
- pinned taps core formulae other taps   镜像加速 清华大学镜像 替换现有上游</description>
+ pinned taps core formulae other taps   镜像加速 #  清华大学镜像 #  替换现有上游</description>
     </item>
     
     <item>
@@ -133,8 +132,8 @@ brew tap 没有参数会自动更新已经存在的 tap 并列出当前已经 ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/hhkb/</guid>
-      <description>HHKB 键盘 Happy Hacking Keyboard
-使用 方向键 右侧的 Fn 键 + [ / ; &#39;</description>
+      <description>HHKB 键盘 #  Happy Hacking Keyboard
+使用 #  方向键 #  右侧的 Fn 键 + [ / ; &#39;</description>
     </item>
     
     <item>
@@ -143,8 +142,8 @@ brew tap 没有参数会自动更新已经存在的 tap 并列出当前已经 ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/axure/</guid>
-      <description>Axure RP Rapid Prototyping 快速原型
-快捷键  cmd + D: 副本 cmd + R: 替换  </description>
+      <description>Axure RP #  Rapid Prototyping 快速原型
+快捷键 #   cmd + D: 副本 cmd + R: 替换  </description>
     </item>
     
     <item>
@@ -153,7 +152,7 @@ brew tap 没有参数会自动更新已经存在的 tap 并列出当前已经 ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/mas/</guid>
-      <description>mas-cli/mas  Each application in the Mac App Store has a product identifier which is also used for mas-cli commands. Using mas list will show all installed applications and their product identifiers.
+      <description>mas-cli/mas #  Each application in the Mac App Store has a product identifier which is also used for mas-cli commands. Using mas list will show all installed applications and their product identifiers.
 $ mas list 446107677 Screens 407963104 Pixelmator 497799835 Xcode $ mas search Xcode 497799835 Xcode 688199928 Docs for Xcode 449589707 Dash 3 - API Docs &amp;amp; Snippets. Integrates with Xcode, Alfred, TextWrangler and many more. [...] $ mas install 808809998 ==&amp;gt; Downloading PaintCode 2 ==&amp;gt; Installed PaintCode 2 # If you want to install the first result that the search command returns, use the lucky command.</description>
     </item>
     
@@ -163,7 +162,7 @@ $ mas list 446107677 Screens 407963104 Pixelmator 497799835 Xcode $ mas search X
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/picgo/</guid>
-      <description>picgo CLI 命令 PicGo/PicGo-Core  Molunerfinn/PicGo  </description>
+      <description>picgo #  CLI 命令 #  PicGo/PicGo-Core #  Molunerfinn/PicGo #  </description>
     </item>
     
     <item>
@@ -172,10 +171,10 @@ $ mas list 446107677 Screens 407963104 Pixelmator 497799835 Xcode $ mas search X
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/tmux/</guid>
-      <description>tmux gpakosz/.tmux 配置 ChrisJohnsen/tmux-MacOSX-pasteboard  Using the Mac OS X programs pbpaste and pbcopy under tmux does not work.
+      <description>tmux #  gpakosz/.tmux 配置 #  ChrisJohnsen/tmux-MacOSX-pasteboard #  Using the Mac OS X programs pbpaste and pbcopy under tmux does not work.
 Other services and unpatched builds of screen are also affected.
-gpakosz/.tmux  Oh My Tmux!
-cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .tmux/.tmux.conf.local .  教程  tmux 2: Productive Mouse-Free Development by @bphogan. 手把手教你使用终端复用神器 Tmux，丢掉鼠标不是梦 [视频] 让你的 tmux 起死回生！[视频]  </description>
+gpakosz/.tmux #  Oh My Tmux!
+cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .tmux/.tmux.conf.local .  教程 #   tmux 2: Productive Mouse-Free Development by @bphogan. 手把手教你使用终端复用神器 Tmux，丢掉鼠标不是梦 [视频] 让你的 tmux 起死回生！[视频]  </description>
     </item>
     
     <item>
@@ -184,7 +183,7 @@ cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/vim/</guid>
-      <description>vim  教程 iggredible/Learn-Vim  A book for learning the Vim editor the smart way.</description>
+      <description>vim #   教程 #  iggredible/Learn-Vim #  A book for learning the Vim editor the smart way.</description>
     </item>
     
     <item>
@@ -193,10 +192,10 @@ cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</guid>
-      <description>VSCode 插件 Draw.io hediet/vscode-drawio This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
+      <description>VSCode 插件 #  Draw.io #  hediet/vscode-drawio This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
 设置背景色
 For set light theme, add in your settings.json next: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;atlas&amp;#34; // or if you&amp;#39;d like white menu on the top, not blue, use &amp;#34;Kennedy&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;Kennedy&amp;#34; // or if you mostly view, not edit, use &amp;#34;minimal&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;min&amp;#34; Dark: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;dark&amp;#34; 参考：
- Feature request: match theme colors   Paste Image mushanshitiancai/vscode-paste-image paste image from clipboard to markdown/asciidoc directly!</description>
+ Feature request: match theme colors   Paste Image #  mushanshitiancai/vscode-paste-image paste image from clipboard to markdown/asciidoc directly!</description>
     </item>
     
     <item>
@@ -205,7 +204,7 @@ For set light theme, add in your settings.json next: &amp;#34;hediet.vscode-draw
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</guid>
-      <description>VSCode Debug 参考：
+      <description>VSCode Debug #  参考：
  USER GUIDE - Debugging Debug C++ in Visual Studio Code  </description>
     </item>
     

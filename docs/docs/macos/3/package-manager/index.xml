@@ -11,15 +11,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/package-manager/brew/</guid>
-      <description>Homebrew tap brew tap 可以为 brew 的软件的 跟踪，更新，安装添加更多的的 tap formulae
+      <description>Homebrew #  tap #  brew tap 可以为 brew 的软件的 跟踪，更新，安装添加更多的的 tap formulae
 如果你在核心仓库没有找到你需要的软件，那么你就需要安装第三方的仓库去安装你需要的软件
 tap 命令的仓库源默认来至于 Github，但是这个命令也不限制于这一个地方
-brew tap 没有参数会自动更新已经存在的 tap 并列出当前已经 tapped 的仓库
+brew tap #  没有参数会自动更新已经存在的 tap 并列出当前已经 tapped 的仓库
 # URL 默认是 https://github.com/user/homebrew-repo brew tap &amp;lt;user&amp;gt;/&amp;lt;repo&amp;gt; brew tap &amp;lt;user&amp;gt;/&amp;lt;homebrew-repo&amp;gt; # URL 可以是任何位置，任何协议 brew tap &amp;lt;user&amp;gt;/&amp;lt;repo&amp;gt; URL homebrew/core 默认是最高优先级
 可以使用 brew tap-pin username/repo 使这个仓库优先级高于 core
 使用 brew-tap-unpin username/repo 取消
 当你使用 brew install foo 这个命令时，brew 将按照下面的顺序去查找哪个 formula(tap) 将被使用:
- pinned taps core formulae other taps   镜像加速 清华大学镜像 替换现有上游</description>
+ pinned taps core formulae other taps   镜像加速 #  清华大学镜像 #  替换现有上游</description>
     </item>
     
   </channel>
