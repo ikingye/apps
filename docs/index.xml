@@ -15,12 +15,28 @@
     </item>
     
     <item>
-      <title>快捷键</title>
-      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/shortcuts/</link>
+      <title>Goland</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/goland/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/shortcuts/</guid>
-      <description>VScode 快捷键 #  MacOS 选择  选中所有同一个词 cmd + shift + L  跳转  左右括号跳转 cmd + shift + \ 跳到定义 cmd + 鼠标左键单击 返回光标上一个位置 ctrl + -  编辑  格式化 opt + shift + f  Windows 选择  选中所有同一个词 ctrl + shift + L  跳转  左右括号跳转 ctrl + shift + \ 跳到定义 ctrl + 鼠标左键单击 返回光标上一个位置 alt + ←   </description>
+      <guid>https://ikingye.github.io/apps/docs/macos/5/goland/</guid>
+      <description>Goland #  快捷键 #  跳转 #    指定行 cmd + L
+  指定文件 shift + cmd + O
+  返回光标上一个位置 cmd + opt + 方向键
+  查询 #    函数列表 cmd + f12
+  当前文件查询 cmd + F
+  当前文件替换 cmd + R
+  所有文件查询 shift + cmd + F
+  所有文件替换 shift + cmd + R</description>
+    </item>
+    
+    <item>
+      <title>IntelliJ IDEA</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/idea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/apps/docs/macos/5/idea/</guid>
+      <description>IntelliJ IDEA #  插件 #  Alibaba Java Coding Guidelines #   教程 #  xiaoxiunique/tool-tips #  idea 中相见恨晚的技巧 https://atips.cn/idea/</description>
     </item>
     
     <item>
@@ -52,6 +68,17 @@ chown $USER ~/.ssh/config chmod 644 ~/.ssh/config </description>
       <description>git submodule #  拉取 submodule #  git submodule init git submodule update --remote git submodule add -b #  参考：
  How can I specify a branch/tag when adding a Git submodule?  submodule 修改 url #   edit the .gitmodules file to update the URL git submodule sync  参考： How to change the remote repository for a git submodule?
 delete submodule #   Delete the relevant section from the .</description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/</guid>
+      <description>VSCode #  Microsoft/vscode 插件 #  插件列表 #  code --list-extensions code --list-extensions --show-versions ouuan/my-vscode-extensions List your installed VS Code extensions in a Markdown file
+参考：
+ Command line extension management  VSCode 推荐插件 #     插件 类型 推荐 备注     ESLint 格式化 - JavaScript ★★★★    TabNine 代码补全 ★★★★     ESLint #  Microsoft/vscode-eslint TabNine #  codota/tabnine-vscode Tabnine works with all major programming languages including JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, and React.</description>
     </item>
     
     <item>
@@ -97,16 +124,6 @@ delete submodule #   Delete the relevant section from the .</description>
       
       <guid>https://ikingye.github.io/apps/docs/macos/4/plantuml/tutorial/</guid>
       <description>PlantUML 教程 #  </description>
-    </item>
-    
-    <item>
-      <title>配置</title>
-      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/config/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/config/</guid>
-      <description>VSCode 配置 #  settings.json
-{ &amp;#34;gitlens.advanced.messages&amp;#34;: { &amp;#34;suppressShowKeyBindingsNotice&amp;#34;: true }, &amp;#34;gitlens.historyExplorer.enabled&amp;#34;: true, &amp;#34;java.errors.incompleteClasspath.severity&amp;#34;: &amp;#34;ignore&amp;#34;, &amp;#34;materialTheme.autoApplyIcons&amp;#34;: true, &amp;#34;workbench.colorCustomizations&amp;#34;: {}, &amp;#34;materialTheme.accentPrevious&amp;#34;: &amp;#34;Breaking Bad&amp;#34;, &amp;#34;workbench.colorTheme&amp;#34;: &amp;#34;Material Theme&amp;#34;, &amp;#34;materialTheme.fixIconsRunning&amp;#34;: false, // Controls the font family. &amp;#34;editor.fontFamily&amp;#34;: &amp;#34;Consolas&amp;#34;, &amp;#34;editor.lineHeight&amp;#34;: 22, &amp;#34;window.zoomLevel&amp;#34;: 0, &amp;#34;editor.fontSize&amp;#34;: 14, &amp;#34;workbench.startupEditor&amp;#34;: &amp;#34;newUntitledFile&amp;#34;, &amp;#34;editor.suggestSelection&amp;#34;: &amp;#34;first&amp;#34;, &amp;#34;vsintellicode.modify.editor.suggestSelection&amp;#34;: &amp;#34;automaticallyOverrodeDefaultValue&amp;#34;, &amp;#34;python.jediEnabled&amp;#34;: false, &amp;#34;leetcode.endpoint&amp;#34;: &amp;#34;leetcode-cn&amp;#34;, &amp;#34;python.linting.pylintEnabled&amp;#34;: true, &amp;#34;leetcode.defaultLanguage&amp;#34;: &amp;#34;golang&amp;#34;, &amp;#34;leetcode.hint.configWebviewMarkdown&amp;#34;: false, &amp;#34;leetcode.hint.commentDescription&amp;#34;: false, &amp;#34;go.useLanguageServer&amp;#34;: true, &amp;#34;[go]&amp;#34;: { &amp;#34;editor.formatOnSave&amp;#34;: true, &amp;#34;editor.codeActionsOnSave&amp;#34;: { &amp;#34;source.organizeImports&amp;#34;: true }, // Optional: Disable snippets, as they conflict with completion ranking.</description>
     </item>
     
     <item>
@@ -184,28 +201,6 @@ cd git clone https://github.com/gpakosz/.tmux.git ln -s -f .tmux/.tmux.conf cp .
       
       <guid>https://ikingye.github.io/apps/docs/macos/3/vim/</guid>
       <description>vim #   教程 #  iggredible/Learn-Vim #  A book for learning the Vim editor the smart way.</description>
-    </item>
-    
-    <item>
-      <title>插件</title>
-      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/extension/</guid>
-      <description>VSCode 插件 #  Draw.io #  hediet/vscode-drawio This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
-设置背景色
-For set light theme, add in your settings.json next: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;atlas&amp;#34; // or if you&amp;#39;d like white menu on the top, not blue, use &amp;#34;Kennedy&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;Kennedy&amp;#34; // or if you mostly view, not edit, use &amp;#34;minimal&amp;#34; theme &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;min&amp;#34; Dark: &amp;#34;hediet.vscode-drawio.theme&amp;#34;: &amp;#34;dark&amp;#34; 参考：
- Feature request: match theme colors   Paste Image #  mushanshitiancai/vscode-paste-image paste image from clipboard to markdown/asciidoc directly!</description>
-    </item>
-    
-    <item>
-      <title>Debug</title>
-      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/debug/</guid>
-      <description>VSCode Debug #  参考：
- USER GUIDE - Debugging Debug C++ in Visual Studio Code  </description>
     </item>
     
   </channel>

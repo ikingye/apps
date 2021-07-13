@@ -7,12 +7,12 @@ type: docs
 
 | App                  | 类型       | MacOS                          | Linux | Windows | iOS | Android | 评分  | 备注   |
 | -------------------- | ---------- | ------------------------------ | ----- | ------- | --- | ------- | ----- | ------ |
-| Homebrew             |            | [✔](docs/macos/#homebrew)      | ✗     | ✗       | ✗   | ✗       | ★★★★★ |        |
-| `Oh My Zsh`          |            | [✔](docs/macos/#oh-my-zsh)     | ✔     | ✗       | ✗   | ✗       | ★★★★★ |        |
-| iTerm2               |            | [✔](docs/macos/#iterm2)        | ✗     | ✗       | ✗   | ✗       | ★★★★★ |        |
-| GoLand               | IDE - Go   | [✔](docs/macos/#goland)        |       |         |     |         | ★★★★  |        |
-| `IntelliJ IDEA`      | IDE - Java | [✔](docs/macos/#intellij-idea) |       |         |     |         | ★★★★  |        |
-| `Visual Studio Code` | 编辑器     | [✔](docs/macos/5/vscode/)      | ✔     | ✔       | ✗   | ✗       | ★★★★★ | VSCode |
+| Homebrew             |            | [✔](docs/macos/5/)             | ✗     | ✗       | ✗   | ✗       | ★★★★★ |        |
+| `Oh My Zsh`          |            | [✔](docs/macos/5/)    | ✔     | ✗       | ✗   | ✗       | ★★★★★ |        |
+| iTerm2               |            | [✔](docs/macos/5/)        | ✗     | ✗       | ✗   | ✗       | ★★★★★ |        |
+| GoLand               | IDE - Go   | [✔](docs/macos/5/goland)        |       |         |     |         | ★★★★  |        |
+| `IntelliJ IDEA`      | IDE - Java | [✔](docs/macos/5/idea) |       |         |     |         | ★★★★  |        |
+| `Visual Studio Code` | 编辑器     | [✔](docs/macos/5/vscode)      | ✔     | ✔       | ✗   | ✗       | ★★★★★ | VSCode |
 
 ---
 

@@ -5,5 +5,41 @@
     <link>https://ikingye.github.io/apps/docs/macos/5/</link>
     <description>Recent content in 五星 on 我常用的软件</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ikingye.github.io/apps/docs/macos/5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goland</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/goland/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/apps/docs/macos/5/goland/</guid>
+      <description>Goland #  快捷键 #  跳转 #    指定行 cmd + L
+  指定文件 shift + cmd + O
+  返回光标上一个位置 cmd + opt + 方向键
+  查询 #    函数列表 cmd + f12
+  当前文件查询 cmd + F
+  当前文件替换 cmd + R
+  所有文件查询 shift + cmd + F
+  所有文件替换 shift + cmd + R</description>
+    </item>
+    
+    <item>
+      <title>IntelliJ IDEA</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/idea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/apps/docs/macos/5/idea/</guid>
+      <description>IntelliJ IDEA #  插件 #  Alibaba Java Coding Guidelines #   教程 #  xiaoxiunique/tool-tips #  idea 中相见恨晚的技巧 https://atips.cn/idea/</description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>https://ikingye.github.io/apps/docs/macos/5/vscode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/apps/docs/macos/5/vscode/</guid>
+      <description>VSCode #  Microsoft/vscode 插件 #  插件列表 #  code --list-extensions code --list-extensions --show-versions ouuan/my-vscode-extensions List your installed VS Code extensions in a Markdown file
+参考：
+ Command line extension management  VSCode 推荐插件 #     插件 类型 推荐 备注     ESLint 格式化 - JavaScript ★★★★    TabNine 代码补全 ★★★★     ESLint #  Microsoft/vscode-eslint TabNine #  codota/tabnine-vscode Tabnine works with all major programming languages including JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, and React.</description>
+    </item>
+    
   </channel>
 </rss>
